@@ -1,0 +1,2002 @@
+     1→# MASTER PRODUCTION BUILD PROMPT
+     2→
+     3→You are acting as the senior product designer, creative director, UX architect, conversion strategist, frontend engineer, Next.js engineer, accessibility engineer, technical SEO engineer, QA engineer, product documentation writer, and digital-template release engineer for this project.
+     4→
+     5→You are NOT being asked to generate a generic website.
+     6→
+     7→You are building a **commercial website template product that will be sold to web designers, web developers, freelancers, studios, and small agencies who build websites for paying clients.**
+     8→
+     9→The first product is:
+    10→
+    11→# Accounting / Fractional CFO Firm Website Template
+    12→
+    13→This must be a genuinely production-ready, multi-page, client-delivery-quality website template.
+    14→
+    15→It should be good enough that a freelance web designer or small agency can:
+    16→
+    17→1. buy the template;
+    18→2. replace the fictional demo company with a real client's information;
+    19→3. customize branding, services, team members, case studies, images, contact details, and content;
+    20→4. configure a contact form;
+    21→5. deploy the site;
+    22→6. confidently sell the resulting website to an accounting or Fractional CFO client.
+    23→
+    24→The finished template should feel like a professional vertical website system, not a generic theme.
+    25→
+    26→---
+    27→
+    28→# 1. PRIMARY COMMERCIAL OBJECTIVE
+    29→
+    30→The template will eventually be sold for approximately:
+    31→
+    32→* launch price: around $69;
+    33→* standard price: potentially $79 to $99 if final quality supports it.
+    34→
+    35→Do NOT design around the price.
+    36→
+    37→Design around the standard required to make the price defensible.
+    38→
+    39→The final buyer should reasonably think:
+    40→
+    41→> This saves me many hours of research, information architecture, responsive implementation, professional-service content structure, technical setup, and design work.
+    42→
+    43→The differentiation must come from:
+    44→
+    45→* vertical-specific information architecture;
+    46→* polished visual design;
+    47→* credible demo content;
+    48→* reusable components;
+    49→* practical customization;
+    50→* responsive quality;
+    51→* accessibility;
+    52→* technical SEO;
+    53→* deployment readiness;
+    54→* good documentation;
+    55→* production-ready code.
+    56→
+    57→It must NOT rely on excessive visual effects to create perceived value.
+    58→
+    59→---
+    60→
+    61→# 2. TARGET BUYER
+    62→
+    63→The person buying this product is likely to be:
+    64→
+    65→* an independent web designer;
+    66→* independent web developer;
+    67→* Framer freelancer;
+    68→* Webflow freelancer;
+    69→* WordPress freelancer;
+    70→* React/Next.js freelancer;
+    71→* boutique web design studio;
+    72→* small web development company;
+    73→* founder-led digital agency;
+    74→* approximately 1 to 15 person agency.
+    75→
+    76→They build websites for clients.
+    77→
+    78→The template therefore needs to be convenient for a developer or designer to customize.
+    79→
+    80→---
+    81→
+    82→# 3. END CLIENT
+    83→
+    84→The website represented by the template is for a fictional professional-services business such as:
+    85→
+    86→* Fractional CFO firm;
+    87→* outsourced finance team;
+    88→* accounting consultancy;
+    89→* bookkeeping and controller services firm;
+    90→* financial operations consultancy.
+    91→
+    92→Likely end-client customers include:
+    93→
+    94→* founder-led businesses;
+    95→* professional-services businesses;
+    96→* growing small and midsize businesses;
+    97→* agencies;
+    98→* ecommerce businesses;
+    99→* technology companies;
+   100→* businesses that have outgrown basic bookkeeping but do not need a full-time CFO.
+   101→
+   102→Do not create a consumer-finance, fintech, banking, investing, or crypto website.
+   103→
+   104→This is a B2B professional-services website.
+   105→
+   106→---
+   107→
+   108→# 4. FIRST ACTION: INSPECT BEFORE IMPLEMENTING
+   109→
+   110→Before making implementation decisions, inspect the environment you have been given.
+   111→
+   112→If an existing repository is supplied:
+   113→
+   114→* inspect the complete repository structure;
+   115→* inspect package.json;
+   116→* inspect framework versions;
+   117→* inspect routes;
+   118→* inspect components;
+   119→* inspect styles;
+   120→* inspect configuration;
+   121→* inspect assets;
+   122→* inspect README and documentation;
+   123→* inspect existing scripts;
+   124→* inspect lint/typecheck/test/build scripts;
+   125→* inspect existing functionality;
+   126→* preserve useful working architecture.
+   127→
+   128→If this is an empty/new project:
+   129→
+   130→* establish the architecture described later in this specification;
+   131→* do not create unnecessary complexity.
+   132→
+   133→Do not blindly overwrite working project infrastructure.
+   134→
+   135→Document what exists before changing it.
+   136→
+   137→---
+   138→
+   139→# 5. RESEARCH BEFORE DESIGN
+   140→
+   141→Before settling on the design and information architecture, research the current public website landscape for:
+   142→
+   143→* Fractional CFO firms;
+   144→* outsourced accounting firms;
+   145→* finance advisory firms;
+   146→* controller/CFO service companies;
+   147→* modern accounting consultancies;
+   148→* high-quality professional-services websites.
+   149→
+   150→Study enough examples to understand:
+   151→
+   152→* common services;
+   153→* navigation structures;
+   154→* client objections;
+   155→* trust requirements;
+   156→* calls to action;
+   157→* service presentation;
+   158→* case-study patterns;
+   159→* team presentation;
+   160→* industry specialization;
+   161→* insights/content patterns;
+   162→* consultation flows;
+   163→* visual conventions;
+   164→* weaknesses and clichés in existing websites.
+   165→
+   166→You may learn from public websites.
+   167→
+   168→You must NOT:
+   169→
+   170→* clone a competitor;
+   171→* copy a site's layout wholesale;
+   172→* copy wording;
+   173→* reproduce proprietary graphics;
+   174→* copy photography without appropriate rights;
+   175→* copy testimonials;
+   176→* copy statistics;
+   177→* copy branding.
+   178→
+   179→Use research to understand the market, not to duplicate it.
+   180→
+   181→Create an internal research summary before implementation.
+   182→
+   183→---
+   184→
+   185→# 6. NEVER INVENT REAL-WORLD CLAIMS
+   186→
+   187→This requirement is strict.
+   188→
+   189→Do NOT invent:
+   190→
+   191→* real customers;
+   192→* real customer logos;
+   193→* certifications;
+   194→* accounting licenses;
+   195→* CPA qualifications;
+   196→* awards;
+   197→* regulatory approvals;
+   198→* years in business;
+   199→* office locations;
+   200→* revenue statistics;
+   201→* client counts;
+   202→* AUM;
+   203→* review scores;
+   204→* media mentions;
+   205→* partnerships;
+   206→* software certifications;
+   207→* performance claims;
+   208→* real testimonials.
+   209→
+   210→Because this is a fictional demonstration company, fictional content is permitted ONLY when clearly structured as demonstration material.
+   211→
+   212→Do not portray fictional information as factual information about a real organization.
+   213→
+   214→Where regulated or professional credentials would normally appear, either:
+   215→
+   216→* use neutral placeholder patterns;
+   217→* explicitly identify them as demonstration content;
+   218→* or omit unsupported claims.
+   219→
+   220→---
+   221→
+   222→# 7. CREATE A BELIEVABLE FICTIONAL DEMO BRAND
+   223→
+   224→Create a fictional business specifically for the template.
+   225→
+   226→The working name may be:
+   227→
+   228→# Northline Finance
+   229→
+   230→You may improve the name only if you have a materially stronger, original alternative.
+   231→
+   232→The brand must feel:
+   233→
+   234→* credible;
+   235→* understated;
+   236→* professional;
+   237→* current;
+   238→* financially literate;
+   239→* approachable;
+   240→* B2B;
+   241→* independent rather than corporate-banking-like.
+   242→
+   243→Avoid startup clichés.
+   244→
+   245→Create a coherent fictional brand profile including:
+   246→
+   247→* company name;
+   248→* concise positioning statement;
+   249→* service model;
+   250→* ideal clients;
+   251→* company description;
+   252→* values;
+   253→* process;
+   254→* fictional team;
+   255→* industry focus;
+   256→* demo case-study scenarios;
+   257→* article topics;
+   258→* FAQs.
+   259→
+   260→Do not use cheesy slogans.
+   261→
+   262→Avoid wording such as:
+   263→
+   264→* "unlock your potential";
+   265→* "take your business to the next level";
+   266→* "empower your journey";
+   267→* "transform your future";
+   268→* "your trusted partner";
+   269→* "innovative solutions";
+   270→* "revolutionize";
+   271→* "game-changing";
+   272→* "one-stop solution."
+   273→
+   274→Write like a strong specialist finance consultancy.
+   275→
+   276→---
+   277→
+   278→# 8. CORE POSITIONING
+   279→
+   280→The demo company should broadly communicate something like:
+   281→
+   282→> Finance and accounting support for founder-led businesses that need better visibility, stronger financial operations, and senior finance guidance without building a full internal finance department.
+   283→
+   284→Do not copy that line mechanically.
+   285→
+   286→Use it as strategic direction.
+   287→
+   288→The company's services should make commercial sense.
+   289→
+   290→Potential service families include:
+   291→
+   292→* Fractional CFO;
+   293→* Management Reporting;
+   294→* Forecasting and Planning;
+   295→* Cash Flow Management;
+   296→* Accounting and Bookkeeping;
+   297→* Controller Services;
+   298→* Financial Operations;
+   299→* KPI Reporting;
+   300→* Board / Investor Reporting;
+   301→* Finance Systems and Process Improvement.
+   302→
+   303→Do not force all of these if a cleaner service architecture works better.
+   304→
+   305→---
+   306→
+   307→# 9. REQUIRED INFORMATION ARCHITECTURE
+   308→
+   309→Build a real multi-page site.
+   310→
+   311→At minimum include:
+   312→
+   313→1. Home
+   314→2. Services
+   315→3. Fractional CFO
+   316→4. Accounting / Bookkeeping
+   317→5. Industries
+   318→6. Case Studies
+   319→7. Individual Case Study
+   320→8. About
+   321→9. Team
+   322→10. Insights
+   323→11. Individual Insight / Article
+   324→12. Contact / Consultation
+   325→13. Privacy
+   326→14. Terms
+   327→15. Custom 404
+   328→
+   329→Use clean routes.
+   330→
+   331→Suggested route architecture:
+   332→
+   333→```text
+   334→/
+   335→ /services
+   336→ /services/fractional-cfo
+   337→ /services/accounting-bookkeeping
+   338→ /industries
+   339→ /case-studies
+   340→ /case-studies/[slug]
+   341→ /about
+   342→ /team
+   343→ /insights
+   344→ /insights/[slug]
+   345→ /contact
+   346→ /privacy
+   347→ /terms
+   348→```
+   349→
+   350→If research supports additional important pages, you may add them.
+   351→
+   352→Do not add pages merely to inflate page count.
+   353→
+   354→---
+   355→
+   356→# 10. HOMEPAGE STRATEGY
+   357→
+   358→The homepage must establish:
+   359→
+   360→* who the firm serves;
+   361→* what problem it solves;
+   362→* its primary service areas;
+   363→* why the visitor should trust the model;
+   364→* how engagement works;
+   365→* evidence through clearly fictional/demo case studies;
+   366→* expertise;
+   367→* human/team credibility;
+   368→* useful insights;
+   369→* a clear path to consultation.
+   370→
+   371→Do not make the homepage:
+   372→
+   373→Hero
+   374→→ logo strip
+   375→→ three feature cards
+   376→→ testimonials
+   377→→ CTA
+   378→
+   379→That is generic SaaS structure.
+   380→
+   381→Develop a vertical-specific editorial composition.
+   382→
+   383→Potential homepage content may include:
+   384→
+   385→* restrained hero;
+   386→* concise positioning;
+   387→* client-fit statement;
+   388→* financial problem framing;
+   389→* service architecture;
+   390→* business-stage indicators;
+   391→* engagement model;
+   392→* selected industry expertise;
+   393→* selected case study;
+   394→* numerical/demo business outcome module;
+   395→* advisor/team preview;
+   396→* insight/article preview;
+   397→* consultation CTA.
+   398→
+   399→The homepage must have visual rhythm and hierarchy.
+   400→
+   401→---
+   402→
+   403→# 11. SERVICES PAGE
+   404→
+   405→Create a service architecture that helps a potential client understand:
+   406→
+   407→* what each service is;
+   408→* when they need it;
+   409→* what problems it addresses;
+   410→* what deliverables may be involved;
+   411→* how services work together.
+   412→
+   413→Potential categories:
+   414→
+   415→Strategic Finance
+   416→
+   417→* Fractional CFO
+   418→* Forecasting and planning
+   419→* Decision support
+   420→* board/investor reporting
+   421→
+   422→Financial Operations
+   423→
+   424→* Management reporting
+   425→* cash flow management
+   426→* KPI reporting
+   427→* process improvement
+   428→
+   429→Accounting
+   430→
+   431→* monthly accounting
+   432→* bookkeeping
+   433→* close support
+   434→* controller services
+   435→
+   436→Do not promise regulated activities without appropriate framing.
+   437→
+   438→---
+   439→
+   440→# 12. FRACTIONAL CFO PAGE
+   441→
+   442→This should feel like a real high-value service landing page.
+   443→
+   444→Cover areas such as:
+   445→
+   446→* when a company needs Fractional CFO support;
+   447→* typical challenges;
+   448→* financial visibility;
+   449→* forecasting;
+   450→* cash management;
+   451→* strategic planning;
+   452→* reporting;
+   453→* finance leadership;
+   454→* decision support;
+   455→* engagement process;
+   456→* FAQ;
+   457→* consultation CTA.
+   458→
+   459→Use a strong editorial structure.
+   460→
+   461→Do not create a feature-grid-only page.
+   462→
+   463→---
+   464→
+   465→# 13. ACCOUNTING / BOOKKEEPING PAGE
+   466→
+   467→This page should be distinctly different from the Fractional CFO page.
+   468→
+   469→Potential subjects:
+   470→
+   471→* reliable monthly books;
+   472→* month-end close;
+   473→* financial statements;
+   474→* account reconciliation;
+   475→* reporting;
+   476→* controller oversight;
+   477→* finance operations;
+   478→* clean handoff into strategic finance.
+   479→
+   480→Make the relationship between bookkeeping, accounting, controller support, and CFO services understandable.
+   481→
+   482→---
+   483→
+   484→# 14. INDUSTRIES PAGE
+   485→
+   486→Create several believable demonstration verticals.
+   487→
+   488→Examples may include:
+   489→
+   490→* professional services;
+   491→* technology;
+   492→* ecommerce;
+   493→* agencies;
+   494→* consulting;
+   495→* recurring-revenue businesses.
+   496→
+   497→Do not claim the fictional firm has real sector credentials.
+   498→
+   499→Instead frame these as demo service-fit categories.
+   500→
+   501→Each industry area should communicate vertical-specific financial concerns.
+   502→
+   503→Example:
+   504→
+   505→Agency:
+   506→
+   507→* project margins;
+   508→* utilization;
+   509→* staffing;
+   510→* cash timing;
+   511→* recurring revenue;
+   512→* pipeline-to-capacity planning.
+   513→
+   514→Ecommerce:
+   515→
+   516→* contribution margin;
+   517→* inventory;
+   518→* channel performance;
+   519→* cash conversion;
+   520→* forecasting.
+   521→
+   522→Make these commercially intelligent.
+   523→
+   524→---
+   525→
+   526→# 15. CASE STUDIES
+   527→
+   528→Case studies are important.
+   529→
+   530→Create 3 to 4 fictional demonstration case studies.
+   531→
+   532→They must be explicitly presented as demonstration/sample content within the product source/documentation.
+   533→
+   534→Do NOT use real business names.
+   535→
+   536→Each case study should have:
+   537→
+   538→* fictional company;
+   539→* company type;
+   540→* situation;
+   541→* problem;
+   542→* work performed;
+   543→* process;
+   544→* measurable demo outcome where appropriate;
+   545→* services involved;
+   546→* concise conclusion.
+   547→
+   548→Use plausible values.
+   549→
+   550→Do not use absurd results.
+   551→
+   552→Do not claim causation that would not be supportable.
+   553→
+   554→Consider labels such as:
+   555→
+   556→"Demonstration case study"
+   557→
+   558→inside source/demo documentation.
+   559→
+   560→The rendered template may treat the fictional brand as a cohesive demonstration site, but the product documentation must make clear that case studies are demo content requiring replacement before real client deployment.
+   561→
+   562→---
+   563→
+   564→# 16. TEAM PAGE
+   565→
+   566→Create a small fictional team.
+   567→
+   568→Potential roles:
+   569→
+   570→* Managing Partner / Fractional CFO;
+   571→* Finance Director;
+   572→* Controller;
+   573→* Senior Accountant;
+   574→* Operations / Client Services.
+   575→
+   576→Biographies should sound human and concise.
+   577→
+   578→Do not fabricate real licenses or certifications.
+   579→
+   580→Do not use fake LinkedIn links.
+   581→
+   582→Create an architecture that allows the buyer to easily add, remove, or edit team members.
+   583→
+   584→---
+   585→
+   586→# 17. ABOUT PAGE
+   587→
+   588→Avoid generic corporate history.
+   589→
+   590→The page can focus on:
+   591→
+   592→* point of view;
+   593→* operating model;
+   594→* who the firm works best with;
+   595→* how senior finance + accounting work together;
+   596→* principles;
+   597→* team;
+   598→* approach.
+   599→
+   600→Make it useful to a prospective client deciding whether the firm is credible.
+   601→
+   602→---
+   603→
+   604→# 18. INSIGHTS SYSTEM
+   605→
+   606→Build a real content architecture.
+   607→
+   608→Include:
+   609→
+   610→* insights index;
+   611→* article cards;
+   612→* tags/categories if useful;
+   613→* individual article pages;
+   614→* author;
+   615→* publication date;
+   616→* reading hierarchy;
+   617→* related articles where appropriate.
+   618→
+   619→Create approximately 5 to 8 example article entries.
+   620→
+   621→Examples:
+   622→
+   623→* building a useful 13-week cash flow forecast;
+   624→* when a growing business needs a controller versus CFO;
+   625→* what monthly management reporting should actually tell you;
+   626→* preparing a finance function for growth;
+   627→* measuring service-business project margins.
+   628→
+   629→Write credible excerpts.
+   630→
+   631→At least 2 or 3 articles should contain enough real demo body content to demonstrate article typography.
+   632→
+   633→Do not populate pages with Lorem Ipsum.
+   634→
+   635→---
+   636→
+   637→# 19. CONTACT / CONSULTATION FLOW
+   638→
+   639→Build a professional consultation page.
+   640→
+   641→Potential fields:
+   642→
+   643→* name;
+   644→* work email;
+   645→* company;
+   646→* website;
+   647→* approximate company stage / size;
+   648→* service interest;
+   649→* message.
+   650→
+   651→Do not ask for excessive information.
+   652→
+   653→Include:
+   654→
+   655→* accessible labels;
+   656→* validation;
+   657→* error states;
+   658→* success state;
+   659→* loading state;
+   660→* spam-conscious architecture;
+   661→* clear privacy note.
+   662→
+   663→The shipped template must work safely in demo mode.
+   664→
+   665→Do not hardcode form submissions to any real person's email.
+   666→
+   667→Provide an integration-ready architecture.
+   668→
+   669→If using Resend or another provider:
+   670→
+   671→* keep credentials server-side;
+   672→* provide `.env.example`;
+   673→* provide setup documentation;
+   674→* fail gracefully when configuration is absent.
+   675→
+   676→The template must still install and render without secret credentials.
+   677→
+   678→---
+   679→
+   680→# 20. VISUAL DIRECTION
+   681→
+   682→The concept is:
+   683→
+   684→# Modern Financial Editorial
+   685→
+   686→The site should feel like a combination of:
+   687→
+   688→* a strong independent financial consultancy;
+   689→* a considered editorial publication;
+   690→* a precise professional-services brand.
+   691→
+   692→It must NOT look like:
+   693→
+   694→* a generic SaaS homepage;
+   695→* a fintech dashboard;
+   696→* a crypto company;
+   697→* a venture-backed startup landing page;
+   698→* a template marketplace cliché.
+   699→
+   700→Visual qualities:
+   701→
+   702→* restraint;
+   703→* trust;
+   704→* clarity;
+   705→* precision;
+   706→* strong typography;
+   707→* generous whitespace;
+   708→* refined rules/borders;
+   709→* sophisticated grids;
+   710→* subtle financial-document influences;
+   711→* high-quality editorial composition.
+   712→
+   713→---
+   714→
+   715→# 21. COLOR DIRECTION
+   716→
+   717→Develop a sophisticated palette around concepts such as:
+   718→
+   719→* warm off-white / paper;
+   720→* charcoal / near-black;
+   721→* deep muted navy;
+   722→* restrained financial green;
+   723→* quiet neutral grays.
+   724→
+   725→Use accent colors sparingly.
+   726→
+   727→Do not use:
+   728→
+   729→* neon;
+   730→* gratuitous gradients;
+   731→* rainbow gradients;
+   732→* random purple-blue startup gradients;
+   733→* glowing cards;
+   734→* excessive glassmorphism.
+   735→
+   736→Create proper design tokens.
+   737→
+   738→The entire color system should be configurable centrally.
+   739→
+   740→---
+   741→
+   742→# 22. TYPOGRAPHY
+   743→
+   744→Typography is a major part of the product.
+   745→
+   746→Use high-quality fonts with appropriate commercial/open-source usage rights.
+   747→
+   748→A possible direction:
+   749→
+   750→* refined serif or editorial display face;
+   751→* highly legible sans-serif body face.
+   752→
+   753→Do not sacrifice readability for fashion.
+   754→
+   755→Create a deliberate hierarchy for:
+   756→
+   757→* display headings;
+   758→* H1;
+   759→* H2;
+   760→* H3;
+   761→* eyebrow text;
+   762→* body;
+   763→* captions;
+   764→* labels;
+   765→* data/numerical typography;
+   766→* navigation;
+   767→* buttons.
+   768→
+   769→Support responsive typography with sensible `clamp()` or equivalent fluid scaling.
+   770→
+   771→Avoid oversized headings that break on mobile.
+   772→
+   773→---
+   774→
+   775→# 23. VISUAL MOTIFS
+   776→
+   777→Develop subtle vertical-specific motifs.
+   778→
+   779→Possible influences:
+   780→
+   781→* accounting ledgers;
+   782→* financial statements;
+   783→* structured data;
+   784→* margins;
+   785→* ruled documents;
+   786→* report sections;
+   787→* balance-sheet precision;
+   788→* restrained tabular typography.
+   789→
+   790→Do NOT literally plaster fake spreadsheets everywhere.
+   791→
+   792→Use the concepts abstractly and tastefully.
+   793→
+   794→---
+   795→
+   796→# 24. IMAGERY
+   797→
+   798→Prefer:
+   799→
+   800→* real properly licensed royalty-free photography;
+   801→* neutral professional imagery;
+   802→* architectural/business detail;
+   803→* people in credible workplace environments;
+   804→* original graphical treatments.
+   805→
+   806→Do not use AI-generated images unless explicitly authorized.
+   807→
+   808→Do not use images with unclear redistribution rights inside the commercial downloadable product.
+   809→
+   810→For every included third-party asset, document:
+   811→
+   812→* filename;
+   813→* source;
+   814→* creator if available;
+   815→* license;
+   816→* whether redistribution is permitted;
+   817→* where it appears;
+   818→* alt text;
+   819→* suggested replacement dimensions/crop.
+   820→
+   821→Create:
+   822→
+   823→```text
+   824→docs/ASSET_MANIFEST.md
+   825→```
+   826→
+   827→If redistribution rights are unclear, do NOT ship the asset.
+   828→
+   829→Use a safe placeholder and document how the buyer should replace it.
+   830→
+   831→---
+   832→
+   833→# 25. NO FAKE CUSTOMER LOGO WALL
+   834→
+   835→Do not fabricate logos of nonexistent clients to imitate social proof.
+   836→
+   837→Do not create:
+   838→
+   839→"Trusted by 500 companies"
+   840→
+   841→or similar unsupported language.
+   842→
+   843→Trust should come from:
+   844→
+   845→* design;
+   846→* expertise;
+   847→* service clarity;
+   848→* people;
+   849→* process;
+   850→* useful content;
+   851→* demonstration case studies.
+   852→
+   853→---
+   854→
+   855→# 26. INTERACTION DESIGN
+   856→
+   857→Motion must be restrained and purposeful.
+   858→
+   859→Appropriate effects include:
+   860→
+   861→* subtle section reveals;
+   862→* refined navigation transitions;
+   863→* line/rule reveals;
+   864→* small hover states;
+   865→* image masking;
+   866→* subtle numerical transitions;
+   867→* article/card interactions.
+   868→
+   869→Do not:
+   870→
+   871→* animate every element;
+   872→* use excessive parallax;
+   873→* add cursor gimmicks;
+   874→* add giant scrolling marquees without reason;
+   875→* block navigation with page transitions;
+   876→* use animation that harms accessibility;
+   877→* make users wait for content.
+   878→
+   879→Support:
+   880→
+   881→```css
+   882→prefers-reduced-motion
+   883→```
+   884→
+   885→All important functionality must remain usable with reduced motion.
+   886→
+   887→---
+   888→
+   889→# 27. RESPONSIVE DESIGN
+   890→
+   891→Do not merely "make it responsive."
+   892→
+   893→Actively design and test around approximately:
+   894→
+   895→* 1440 px and above;
+   896→* 1280 px;
+   897→* 1024 px;
+   898→* 768 px;
+   899→* 430 px;
+   900→* 390 px;
+   901→* 360 px.
+   902→
+   903→Inspect every major page.
+   904→
+   905→Test:
+   906→
+   907→* navigation;
+   908→* mobile menu;
+   909→* H1 wrapping;
+   910→* long team names;
+   911→* service names;
+   912→* content cards;
+   913→* forms;
+   914→* article typography;
+   915→* case study layouts;
+   916→* images;
+   917→* data displays;
+   918→* buttons;
+   919→* tables if any;
+   920→* footer;
+   921→* horizontal overflow.
+   922→
+   923→No meaningful information should rely solely on hover.
+   924→
+   925→---
+   926→
+   927→# 28. ACCESSIBILITY
+   928→
+   929→Target strong WCAG-conscious implementation.
+   930→
+   931→At minimum verify:
+   932→
+   933→* semantic landmarks;
+   934→* heading hierarchy;
+   935→* keyboard navigation;
+   936→* visible focus states;
+   937→* accessible mobile navigation;
+   938→* labels for inputs;
+   939→* error messaging;
+   940→* button semantics;
+   941→* links distinguishable from buttons;
+   942→* adequate color contrast;
+   943→* alt text;
+   944→* decorative image handling;
+   945→* reduced-motion support;
+   946→* reasonable touch targets;
+   947→* no keyboard traps.
+   948→
+   949→Use ARIA only where required.
+   950→
+   951→Prefer native HTML semantics.
+   952→
+   953→---
+   954→
+   955→# 29. TECHNICAL STACK
+   956→
+   957→Unless an existing supplied project gives a reason to preserve a different compatible stack, use:
+   958→
+   959→* Next.js App Router;
+   960→* React;
+   961→* TypeScript;
+   962→* Tailwind CSS;
+   963→* minimal, justified dependencies.
+   964→
+   965→Use the current stable project-supported versions.
+   966→
+   967→Do not add libraries merely because they are fashionable.
+   968→
+   969→For animation, use a lightweight existing solution if already present, or a justified library such as Motion/Framer Motion if needed.
+   970→
+   971→Do not introduce:
+   972→
+   973→* unnecessary state-management libraries;
+   974→* unnecessary database;
+   975→* unnecessary CMS;
+   976→* unnecessary authentication;
+   977→* unnecessary backend infrastructure.
+   978→
+   979→The base template should be self-contained.
+   980→
+   981→---
+   982→
+   983→# 30. NO REQUIRED CMS FOR V1
+   984→
+   985→The product must work without:
+   986→
+   987→* Sanity;
+   988→* Contentful;
+   989→* Strapi;
+   990→* Supabase;
+   991→* Firebase;
+   992→* database setup.
+   993→
+   994→Use a developer-friendly local content architecture.
+   995→
+   996→Good possibilities include:
+   997→
+   998→* typed TypeScript content files;
+   999→* MDX;
+  1000→* structured JSON/TS collections.
+  1001→
+  1002→Choose the cleanest architecture.
+  1003→
+  1004→The buyer should be able to run:
+  1005→
+  1006→```powershell
+  1007→npm install
+  1008→npm run dev
+  1009→```
+  1010→
+  1011→and see the full demo.
+  1012→
+  1013→---
+  1014→
+  1015→# 31. PROJECT ARCHITECTURE
+  1016→
+  1017→Aim for a clear structure along the lines of:
+  1018→
+  1019→```text
+  1020→src/
+  1021→├── app/
+  1022→│   ├── page.tsx
+  1023→│   ├── services/
+  1024→│   ├── industries/
+  1025→│   ├── case-studies/
+  1026→│   ├── about/
+  1027→│   ├── team/
+  1028→│   ├── insights/
+  1029→│   ├── contact/
+  1030→│   ├── privacy/
+  1031→│   ├── terms/
+  1032→│   ├── sitemap.ts
+  1033→│   ├── robots.ts
+  1034→│   ├── layout.tsx
+  1035→│   └── not-found.tsx
+  1036→│
+  1037→├── components/
+  1038→│   ├── layout/
+  1039→│   ├── ui/
+  1040→│   ├── sections/
+  1041→│   └── finance/
+  1042→│
+  1043→├── content/
+  1044→│   ├── services/
+  1045→│   ├── industries/
+  1046→│   ├── case-studies/
+  1047→│   ├── team/
+  1048→│   ├── insights/
+  1049→│   └── faq/
+  1050→│
+  1051→├── config/
+  1052→│   └── site.ts
+  1053→│
+  1054→├── lib/
+  1055→│
+  1056→└── styles/
+  1057→```
+  1058→
+  1059→Adapt if a better maintainable architecture is justified.
+  1060→
+  1061→Do not over-engineer it.
+  1062→
+  1063→---
+  1064→
+  1065→# 32. CENTRALIZE BUYER CUSTOMIZATION
+  1066→
+  1067→This is one of the highest-priority product requirements.
+  1068→
+  1069→Do NOT scatter:
+  1070→
+  1071→* business name;
+  1072→* email;
+  1073→* phone;
+  1074→* address;
+  1075→* colors;
+  1076→* social links;
+  1077→* service data;
+  1078→* team data;
+  1079→* case studies;
+  1080→
+  1081→across dozens of components.
+  1082→
+  1083→Create a clear configuration system.
+  1084→
+  1085→For example:
+  1086→
+  1087→```ts
+  1088→export const siteConfig = {
+  1089→  companyName: "Northline Finance",
+  1090→  shortName: "Northline",
+  1091→  description: "...",
+  1092→  contact: {
+  1093→    email: "...",
+  1094→    phone: "...",
+  1095→  },
+  1096→  social: {
+  1097→    linkedin: "",
+  1098→  },
+  1099→};
+  1100→```
+  1101→
+  1102→Centralize theme tokens.
+  1103→
+  1104→Centralize repeated content.
+  1105→
+  1106→A competent developer should be able to customize the template quickly without reverse-engineering it.
+  1107→
+  1108→---
+  1109→
+  1110→# 33. BUILD VERTICAL-SPECIFIC COMPONENTS
+  1111→
+  1112→Do not rely exclusively on generic components such as:
+  1113→
+  1114→* Hero;
+  1115→* FeatureCards;
+  1116→* Testimonials;
+  1117→* CTA.
+  1118→
+  1119→Create components that belong naturally to this business type.
+  1120→
+  1121→Examples:
+  1122→
+  1123→```text
+  1124→<ServiceMatrix />
+  1125→<FinanceFunctionMap />
+  1126→<BusinessStageFit />
+  1127→<EngagementProcess />
+  1128→<CaseStudyMetrics />
+  1129→<AdvisorProfiles />
+  1130→<ServiceComparison />
+  1131→<IndustryFinanceChallenges />
+  1132→<ReportingPreview />
+  1133→<InsightGrid />
+  1134→<ConsultationForm />
+  1135→```
+  1136→
+  1137→Only create components that improve the actual experience.
+  1138→
+  1139→---
+  1140→
+  1141→# 34. DESIGN SYSTEM
+  1142→
+  1143→Create a documented internal design system containing:
+  1144→
+  1145→* colors;
+  1146→* typography;
+  1147→* spacing;
+  1148→* container widths;
+  1149→* radii;
+  1150→* borders;
+  1151→* shadows;
+  1152→* button variants;
+  1153→* input states;
+  1154→* links;
+  1155→* cards;
+  1156→* section spacing;
+  1157→* data styles;
+  1158→* motion durations;
+  1159→* easing.
+  1160→
+  1161→Do not produce dozens of inconsistent one-off values.
+  1162→
+  1163→The design system should enable later customization.
+  1164→
+  1165→---
+  1166→
+  1167→# 35. SEO
+  1168→
+  1169→Implement technically sound SEO infrastructure.
+  1170→
+  1171→Include:
+  1172→
+  1173→* meaningful unique page titles;
+  1174→* meaningful meta descriptions;
+  1175→* metadata configuration;
+  1176→* canonical handling;
+  1177→* Open Graph;
+  1178→* Twitter/social metadata;
+  1179→* sitemap;
+  1180→* robots;
+  1181→* semantic headings;
+  1182→* internal linking;
+  1183→* breadcrumbs where useful;
+  1184→* structured data.
+  1185→
+  1186→Use appropriate structured data only when supported.
+  1187→
+  1188→Possible schema types may include:
+  1189→
+  1190→* Organization;
+  1191→* ProfessionalService;
+  1192→* Person;
+  1193→* BreadcrumbList;
+  1194→* Article.
+  1195→
+  1196→Do not insert unsupported review/rating schema.
+  1197→
+  1198→Do not fabricate business data for structured markup.
+  1199→
+  1200→Demo business information should be easy to replace.
+  1201→
+  1202→---
+  1203→
+  1204→# 36. PERFORMANCE
+  1205→
+  1206→Prioritize practical performance.
+  1207→
+  1208→Requirements:
+  1209→
+  1210→* use optimized Next.js image handling where appropriate;
+  1211→* avoid oversized source images;
+  1212→* avoid unnecessary JavaScript;
+  1213→* lazy-load where sensible;
+  1214→* prevent CLS;
+  1215→* use fonts properly;
+  1216→* avoid excessive client components;
+  1217→* avoid animation-heavy runtime;
+  1218→* minimize dependency footprint.
+  1219→
+  1220→Prefer Server Components where appropriate.
+  1221→
+  1222→Use `"use client"` only where interaction requires it.
+  1223→
+  1224→---
+  1225→
+  1226→# 37. HYDRATION SAFETY
+  1227→
+  1228→The site must have no hydration warnings.
+  1229→
+  1230→Avoid nondeterministic server/client markup caused by:
+  1231→
+  1232→* random numbers;
+  1233→* current time differences;
+  1234→* window-dependent render logic;
+  1235→* locale differences;
+  1236→* conditional DOM mismatches.
+  1237→
+  1238→Check the browser console.
+  1239→
+  1240→No hydration errors are acceptable.
+  1241→
+  1242→---
+  1243→
+  1244→# 38. CONTENT QUALITY
+  1245→
+  1246→No Lorem Ipsum.
+  1247→
+  1248→No unfinished placeholder sentences.
+  1249→
+  1250→No generic AI-sounding filler.
+  1251→
+  1252→Copy should be:
+  1253→
+  1254→* concise;
+  1255→* calm;
+  1256→* financially literate;
+  1257→* professional;
+  1258→* scannable;
+  1259→* credible.
+  1260→
+  1261→Avoid excessive:
+  1262→
+  1263→* em dashes;
+  1264→* jargon;
+  1265→* exclamation marks;
+  1266→* unnecessary adjectives;
+  1267→* exaggerated claims.
+  1268→
+  1269→Section headlines should communicate substance.
+  1270→
+  1271→---
+  1272→
+  1273→# 39. LEGAL PAGES
+  1274→
+  1275→Privacy and Terms pages are template/demo content.
+  1276→
+  1277→Clearly structure them so the buyer knows they require legal review and customization before real-world deployment.
+  1278→
+  1279→Do not imply they constitute legal advice.
+  1280→
+  1281→---
+  1282→
+  1283→# 40. 404 PAGE
+  1284→
+  1285→Create a branded custom 404.
+  1286→
+  1287→It should:
+  1288→
+  1289→* match the site;
+  1290→* provide useful navigation;
+  1291→* have a route back home;
+  1292→* avoid silly gimmicks inconsistent with financial services.
+  1293→
+  1294→---
+  1295→
+  1296→# 41. COMPONENT QUALITY
+  1297→
+  1298→Components should be:
+  1299→
+  1300→* readable;
+  1301→* typed;
+  1302→* maintainable;
+  1303→* reusable where meaningful;
+  1304→* reasonably small;
+  1305→* accessible.
+  1306→
+  1307→Avoid premature abstraction.
+  1308→
+  1309→Avoid giant 800-line page components.
+  1310→
+  1311→Avoid abstraction where a simple component is clearer.
+  1312→
+  1313→---
+  1314→
+  1315→# 42. NO BROKEN OR MOCK FUNCTIONALITY
+  1316→
+  1317→Do not create UI that appears functional but is not.
+  1318→
+  1319→Examples:
+  1320→
+  1321→* fake filters;
+  1322→* fake search;
+  1323→* fake login;
+  1324→* fake newsletter form;
+  1325→* buttons leading nowhere;
+  1326→* social icons with "#" links;
+  1327→* fake scheduling widget;
+  1328→* meaningless dropdowns.
+  1329→
+  1330→If functionality is included, make it work.
+  1331→
+  1332→If the buyer must configure something externally, document it and provide a safe state.
+  1333→
+  1334→---
+  1335→
+  1336→# 43. TEMPLATE DOCUMENTATION
+  1337→
+  1338→Create a comprehensive documentation directory.
+  1339→
+  1340→At minimum:
+  1341→
+  1342→```text
+  1343→docs/
+  1344→├── START_HERE.md
+  1345→├── CUSTOMIZATION_GUIDE.md
+  1346→├── CONTENT_GUIDE.md
+  1347→├── DEPLOYMENT_GUIDE.md
+  1348→├── FORM_SETUP.md
+  1349→├── ASSET_MANIFEST.md
+  1350→├── SEO_GUIDE.md
+  1351→└── DEMO_CONTENT_NOTICE.md
+  1352→```
+  1353→
+  1354→---
+  1355→
+  1356→# 44. START HERE DOCUMENTATION
+  1357→
+  1358→Explain:
+  1359→
+  1360→* what this product is;
+  1361→* technology used;
+  1362→* requirements;
+  1363→* how to install;
+  1364→* how to run;
+  1365→* where key files live;
+  1366→* how the project is structured;
+  1367→* recommended customization order.
+  1368→
+  1369→A buyer should understand the project quickly.
+  1370→
+  1371→---
+  1372→
+  1373→# 45. CUSTOMIZATION GUIDE
+  1374→
+  1375→Provide explicit instructions for:
+  1376→
+  1377→* company name;
+  1378→* logo;
+  1379→* favicon;
+  1380→* colors;
+  1381→* fonts;
+  1382→* contact details;
+  1383→* navigation;
+  1384→* services;
+  1385→* industries;
+  1386→* team;
+  1387→* case studies;
+  1388→* insights;
+  1389→* images;
+  1390→* CTAs;
+  1391→* legal copy;
+  1392→* metadata;
+  1393→* social preview images.
+  1394→
+  1395→Reference exact file paths.
+  1396→
+  1397→---
+  1398→
+  1399→# 46. CONTENT GUIDE
+  1400→
+  1401→Explain:
+  1402→
+  1403→* which content is fictional;
+  1404→* what must be replaced;
+  1405→* what may remain as structural inspiration;
+  1406→* how to add/edit services;
+  1407→* how to add/edit industries;
+  1408→* how to add case studies;
+  1409→* how to add team members;
+  1410→* how to add articles.
+  1411→
+  1412→---
+  1413→
+  1414→# 47. DEPLOYMENT GUIDE
+  1415→
+  1416→Provide deployment guidance for a typical Next.js deployment.
+  1417→
+  1418→Vercel may be the primary documented path.
+  1419→
+  1420→Explain:
+  1421→
+  1422→* project setup;
+  1423→* environment variables;
+  1424→* build command;
+  1425→* deployment;
+  1426→* custom domain;
+  1427→* production verification.
+  1428→
+  1429→Do not include secret credentials.
+  1430→
+  1431→---
+  1432→
+  1433→# 48. DEMO CONTENT NOTICE
+  1434→
+  1435→This is mandatory.
+  1436→
+  1437→Identify:
+  1438→
+  1439→* fictional company;
+  1440→* fictional team;
+  1441→* fictional case studies;
+  1442→* fictional numerical outcomes;
+  1443→* placeholder contact information;
+  1444→* any other demo-only material.
+  1445→
+  1446→Tell buyers to replace such content before deploying a real client site.
+  1447→
+  1448→---
+  1449→
+  1450→# 49. README
+  1451→
+  1452→The repository root README should be concise but useful.
+  1453→
+  1454→Include:
+  1455→
+  1456→* project description;
+  1457→* quick start;
+  1458→* key scripts;
+  1459→* structure;
+  1460→* documentation links;
+  1461→* customization entry points.
+  1462→
+  1463→Do not make it read like a marketplace sales page.
+  1464→
+  1465→---
+  1466→
+  1467→# 50. ENVIRONMENT VARIABLES
+  1468→
+  1469→Ship:
+  1470→
+  1471→```text
+  1472→.env.example
+  1473→```
+  1474→
+  1475→Never ship:
+  1476→
+  1477→```text
+  1478→.env
+  1479→.env.local
+  1480→```
+  1481→
+  1482→with real secrets.
+  1483→
+  1484→Document every environment variable.
+  1485→
+  1486→Site must build without optional form credentials where possible.
+  1487→
+  1488→---
+  1489→
+  1490→# 51. PACKAGE SCRIPTS
+  1491→
+  1492→Provide useful scripts.
+  1493→
+  1494→At minimum where supported:
+  1495→
+  1496→```text
+  1497→dev
+  1498→build
+  1499→start
+  1500→lint
+  1501→typecheck
+  1502→```
+  1503→
+  1504→If testing infrastructure is introduced, add appropriate test commands.
+  1505→
+  1506→Do not pretend a test script exists if it does not.
+  1507→
+  1508→---
+  1509→
+  1510→# 52. PHASED IMPLEMENTATION
+  1511→
+  1512→Do NOT try to create everything chaotically in one pass.
+  1513→
+  1514→Execute in phases.
+  1515→
+  1516→---
+  1517→
+  1518→# PHASE 1 — RESEARCH AND ARCHITECTURE
+  1519→
+  1520→Do:
+  1521→
+  1522→* inspect environment;
+  1523→* research vertical;
+  1524→* define fictional brand;
+  1525→* define information architecture;
+  1526→* define content system;
+  1527→* define visual direction;
+  1528→* define asset strategy;
+  1529→* define design tokens;
+  1530→* define technical architecture.
+  1531→
+  1532→Create internal planning documentation.
+  1533→
+  1534→Then verify that the proposed architecture satisfies the commercial objective.
+  1535→
+  1536→Do not begin broad page implementation before this foundation is coherent.
+  1537→
+  1538→---
+  1539→
+  1540→# PHASE 2 — FOUNDATION
+  1541→
+  1542→Implement:
+  1543→
+  1544→* Next.js foundation;
+  1545→* global styles;
+  1546→* typography;
+  1547→* theme tokens;
+  1548→* site configuration;
+  1549→* content architecture;
+  1550→* navigation;
+  1551→* mobile navigation;
+  1552→* footer;
+  1553→* layout primitives;
+  1554→* basic reusable UI;
+  1555→* metadata foundation.
+  1556→
+  1557→Verify:
+  1558→
+  1559→* dev server;
+  1560→* routing;
+  1561→* type checking;
+  1562→* linting;
+  1563→* no obvious console errors;
+  1564→* responsive shell.
+  1565→
+  1566→Fix foundation issues before continuing.
+  1567→
+  1568→---
+  1569→
+  1570→# PHASE 3 — HOMEPAGE
+  1571→
+  1572→Build the homepage to near-final visual quality.
+  1573→
+  1574→This phase establishes the product's visual language.
+  1575→
+  1576→The homepage must be strong enough that we could decide whether the creative direction works before multiplying it across the entire site.
+  1577→
+  1578→Verify:
+  1579→
+  1580→* desktop;
+  1581→* tablet;
+  1582→* mobile;
+  1583→* typography;
+  1584→* section rhythm;
+  1585→* imagery;
+  1586→* navigation;
+  1587→* motion;
+  1588→* CTAs;
+  1589→* accessibility;
+  1590→* console.
+  1591→
+  1592→If the homepage looks generic, STOP and improve it before proceeding.
+  1593→
+  1594→Do not propagate weak design across twelve pages.
+  1595→
+  1596→---
+  1597→
+  1598→# PHASE 4 — PRIMARY COMMERCIAL PAGES
+  1599→
+  1600→Build:
+  1601→
+  1602→* Services;
+  1603→* Fractional CFO;
+  1604→* Accounting / Bookkeeping;
+  1605→* Industries;
+  1606→* Case Studies;
+  1607→* Case Study detail.
+  1608→
+  1609→Give each page its own composition.
+  1610→
+  1611→Do not simply repeat the same hero + cards + CTA template.
+  1612→
+  1613→Verify all routes and responsive states.
+  1614→
+  1615→---
+  1616→
+  1617→# PHASE 5 — CREDIBILITY AND CONTENT
+  1618→
+  1619→Build:
+  1620→
+  1621→* About;
+  1622→* Team;
+  1623→* Insights;
+  1624→* Article detail.
+  1625→
+  1626→Verify:
+  1627→
+  1628→* readable long-form typography;
+  1629→* content architecture;
+  1630→* team customization;
+  1631→* article routing;
+  1632→* related content where implemented.
+  1633→
+  1634→---
+  1635→
+  1636→# PHASE 6 — CONVERSION AND SYSTEM PAGES
+  1637→
+  1638→Build:
+  1639→
+  1640→* Contact / consultation;
+  1641→* safe form behavior;
+  1642→* privacy;
+  1643→* terms;
+  1644→* custom 404.
+  1645→
+  1646→Verify all form states.
+  1647→
+  1648→No fake success responses.
+  1649→
+  1650→If submission is disabled because no provider is configured, communicate that appropriately in development/demo mode.
+  1651→
+  1652→---
+  1653→
+  1654→# PHASE 7 — POLISH
+  1655→
+  1656→Perform a deliberate polish pass.
+  1657→
+  1658→Review:
+  1659→
+  1660→* typography;
+  1661→* spacing;
+  1662→* alignment;
+  1663→* borders;
+  1664→* images;
+  1665→* transitions;
+  1666→* hover;
+  1667→* focus;
+  1668→* loading behavior;
+  1669→* responsive edge cases;
+  1670→* section rhythm;
+  1671→* repeated patterns.
+  1672→
+  1673→Remove anything visually unnecessary.
+  1674→
+  1675→---
+  1676→
+  1677→# PHASE 8 — PRODUCTIZATION
+  1678→
+  1679→Ensure:
+  1680→
+  1681→* centralized content;
+  1682→* centralized brand data;
+  1683→* clean config;
+  1684→* clear structure;
+  1685→* `.env.example`;
+  1686→* asset documentation;
+  1687→* customization documentation;
+  1688→* demo-data notice;
+  1689→* deployment guide;
+  1690→* no internal development debris.
+  1691→
+  1692→Make this a product, not merely a working site.
+  1693→
+  1694→---
+  1695→
+  1696→# PHASE 9 — TECHNICAL SEO AND ACCESSIBILITY
+  1697→
+  1698→Audit and improve:
+  1699→
+  1700→* metadata;
+  1701→* canonical behavior;
+  1702→* social previews;
+  1703→* sitemap;
+  1704→* robots;
+  1705→* structured data;
+  1706→* headings;
+  1707→* links;
+  1708→* landmarks;
+  1709→* forms;
+  1710→* labels;
+  1711→* keyboard access;
+  1712→* focus;
+  1713→* contrast;
+  1714→* reduced motion;
+  1715→* alt text.
+  1716→
+  1717→---
+  1718→
+  1719→# PHASE 10 — FULL QA
+  1720→
+  1721→Run every relevant project check.
+  1722→
+  1723→At minimum:
+  1724→
+  1725→```powershell
+  1726→npm run lint
+  1727→npm run typecheck
+  1728→npm run build
+  1729→```
+  1730→
+  1731→If scripts differ, inspect `package.json` and use the actual equivalent.
+  1732→
+  1733→Do not report commands that were not run.
+  1734→
+  1735→Also verify the site in a browser.
+  1736→
+  1737→Inspect:
+  1738→
+  1739→* every route;
+  1740→* desktop;
+  1741→* tablet;
+  1742→* mobile;
+  1743→* console;
+  1744→* hydration;
+  1745→* broken links;
+  1746→* images;
+  1747→* form behavior;
+  1748→* page overflow;
+  1749→* 404;
+  1750→* metadata;
+  1751→* navigation;
+  1752→* mobile navigation;
+  1753→* keyboard interaction;
+  1754→* reduced-motion mode.
+  1755→
+  1756→---
+  1757→
+  1758→# 53. BROWSER QA MATRIX
+  1759→
+  1760→Check at minimum:
+  1761→
+  1762→## Home
+  1763→
+  1764→* hero
+  1765→* all CTAs
+  1766→* services
+  1767→* case study
+  1768→* navigation
+  1769→* footer
+  1770→
+  1771→## Services
+  1772→
+  1773→* navigation
+  1774→* section hierarchy
+  1775→* internal links
+  1776→
+  1777→## Service details
+  1778→
+  1779→* service-specific sections
+  1780→* CTA links
+  1781→* FAQ interaction if used
+  1782→
+  1783→## Industries
+  1784→
+  1785→* industry content
+  1786→* responsive grids
+  1787→
+  1788→## Case Studies
+  1789→
+  1790→* index
+  1791→* detail route
+  1792→* next/related navigation where implemented
+  1793→
+  1794→## Team
+  1795→
+  1796→* cards/profiles
+  1797→* long-name handling
+  1798→
+  1799→## Insights
+  1800→
+  1801→* index
+  1802→* article detail
+  1803→* long-form typography
+  1804→
+  1805→## Contact
+  1806→
+  1807→* validation
+  1808→* error state
+  1809→* success/configuration behavior
+  1810→* keyboard navigation
+  1811→
+  1812→## Global
+  1813→
+  1814→* header
+  1815→* mobile menu
+  1816→* footer
+  1817→* 404
+  1818→* focus
+  1819→* console
+  1820→* no horizontal overflow
+  1821→
+  1822→---
+  1823→
+  1824→# 54. RESPONSIVE QA
+  1825→
+  1826→Explicitly inspect:
+  1827→
+  1828→```text
+  1829→1440px
+  1830→1280px
+  1831→1024px
+  1832→768px
+  1833→430px
+  1834→390px
+  1835→360px
+  1836→```
+  1837→
+  1838→Check unusual intermediate widths too.
+  1839→
+  1840→Do not assume Tailwind breakpoints guarantee quality.
+  1841→
+  1842→---
+  1843→
+  1844→# 55. QUALITY GATES
+  1845→
+  1846→The product is NOT complete if any of these remain:
+  1847→
+  1848→* broken build;
+  1849→* TypeScript errors;
+  1850→* lint errors that indicate real defects;
+  1851→* hydration warnings;
+  1852→* broken links;
+  1853→* missing images;
+  1854→* horizontal scrolling;
+  1855→* unreadable mobile typography;
+  1856→* inaccessible menu;
+  1857→* placeholder Lorem Ipsum;
+  1858→* fake links;
+  1859→* unconfigured functionality pretending to work;
+  1860→* secret credentials;
+  1861→* unsupported claims;
+  1862→* fake client logos;
+  1863→* unclear asset licensing;
+  1864→* scattered customization data;
+  1865→* empty pages;
+  1866→* TODO comments indicating unfinished work;
+  1867→* console runtime errors;
+  1868→* obvious generic SaaS styling.
+  1869→
+  1870→---
+  1871→
+  1872→# 56. ART DIRECTION REJECTION TEST
+  1873→
+  1874→Before considering release, look at the website objectively.
+  1875→
+  1876→Ask:
+  1877→
+  1878→> If I changed the company name from Northline Finance to a cybersecurity company and changed two colors, would the site still make equal sense?
+  1879→
+  1880→If YES, the design is too generic.
+  1881→
+  1882→Improve its accounting / Fractional CFO specificity.
+  1883→
+  1884→Ask:
+  1885→
+  1886→> Does this look like a generic AI-generated SaaS landing page?
+  1887→
+  1888→If YES, redesign the weak sections.
+  1889→
+  1890→Ask:
+  1891→
+  1892→> Could a competent freelance designer actually save meaningful client-delivery time by buying this?
+  1893→
+  1894→If NO, improve productization.
+  1895→
+  1896→---
+  1897→
+  1898→# 57. CUSTOMIZATION TEST
+  1899→
+  1900→Pretend you are the buyer.
+  1901→
+  1902→Attempt to identify how to change:
+  1903→
+  1904→* business name;
+  1905→* logo;
+  1906→* colors;
+  1907→* fonts;
+  1908→* email;
+  1909→* phone;
+  1910→* services;
+  1911→* team;
+  1912→* industries;
+  1913→* case studies;
+  1914→* articles;
+  1915→* images;
+  1916→* form configuration;
+  1917→* SEO metadata.
+  1918→
+  1919→If any common change requires hunting through unrelated components, improve the architecture.
+  1920→
+  1921→---
+  1922→
+  1923→# 58. CLEAN-ROOM TEST
+  1924→
+  1925→Imagine a buyer downloads this project on a different computer.
+  1926→
+  1927→The project should be understandable and installable from the supplied files.
+  1928→
+  1929→Verify:
+  1930→
+  1931→* package lock exists;
+  1932→* dependencies are declared;
+  1933→* no dependency on your local machine;
+  1934→* no absolute local paths;
+  1935→* no hidden credentials;
+  1936→* no required untracked files;
+  1937→* documented environment variables;
+  1938→* README works;
+  1939→* build works from source.
+  1940→
+  1941→---
+  1942→
+  1943→# 59. PACKAGE PREPARATION
+  1944→
+  1945→Prepare a commercial release directory similar to:
+  1946→
+  1947→```text
+  1948→Accounting_Fractional_CFO_Template/
+  1949→│
+  1950→├── TEMPLATE_SOURCE/
+  1951→│
+  1952→├── DOCUMENTATION/
+  1953→│   ├── START_HERE.md
+  1954→│   ├── CUSTOMIZATION_GUIDE.md
+  1955→│   ├── CONTENT_GUIDE.md
+  1956→│   ├── DEPLOYMENT_GUIDE.md
+  1957→│   ├── FORM_SETUP.md
+  1958→│   ├── SEO_GUIDE.md
+  1959→│   └── DEMO_CONTENT_NOTICE.md
+  1960→│
+  1961→├── ASSET_INFORMATION/
+  1962→│   ├── ASSET_MANIFEST.md
+  1963→│   └── THIRD_PARTY_NOTICES.md
+  1964→│
+  1965→├── LICENSE/
+  1966→│   └── LICENSE_PLACEHOLDER.md
+  1967→│
+  1968→└── README.md
+  1969→```
+  1970→
+  1971→Do not invent final commercial license terms unless separately provided.
+  1972→
+  1973→Use a clearly marked placeholder where commercial licensing language is not supplied.
+  1974→
+  1975→---
+  1976→
+  1977→# 60. EXCLUDE FROM CUSTOMER PACKAGE
+  1978→
+  1979→Do not ship unnecessary/generated development files such as:
+  1980→
+  1981→```text
+  1982→node_modules/
+  1983→.next/
+  1984→.env
+  1985→.env.local
+  1986→coverage/
+  1987→temporary screenshots
+  1988→debug logs
+  1989→scratch files
+  1990→```
+  1991→
+  1992→Do ship:
+  1993→
+  1994→```text
+  1995→.env.example
+  1996→package.json
+  1997→lockfile
+  1998→source
+  1999→public assets approved for redistribution
+  2000→documentation
+
+[showing lines 1-2000 of 2438; use offset=2001 with limit to continue reading]

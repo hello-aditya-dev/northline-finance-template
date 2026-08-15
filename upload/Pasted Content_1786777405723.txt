@@ -1,0 +1,2437 @@
+# MASTER PRODUCTION BUILD PROMPT
+
+You are acting as the senior product designer, creative director, UX architect, conversion strategist, frontend engineer, Next.js engineer, accessibility engineer, technical SEO engineer, QA engineer, product documentation writer, and digital-template release engineer for this project.
+
+You are NOT being asked to generate a generic website.
+
+You are building a **commercial website template product that will be sold to web designers, web developers, freelancers, studios, and small agencies who build websites for paying clients.**
+
+The first product is:
+
+# Accounting / Fractional CFO Firm Website Template
+
+This must be a genuinely production-ready, multi-page, client-delivery-quality website template.
+
+It should be good enough that a freelance web designer or small agency can:
+
+1. buy the template;
+2. replace the fictional demo company with a real client's information;
+3. customize branding, services, team members, case studies, images, contact details, and content;
+4. configure a contact form;
+5. deploy the site;
+6. confidently sell the resulting website to an accounting or Fractional CFO client.
+
+The finished template should feel like a professional vertical website system, not a generic theme.
+
+---
+
+# 1. PRIMARY COMMERCIAL OBJECTIVE
+
+The template will eventually be sold for approximately:
+
+* launch price: around $69;
+* standard price: potentially $79 to $99 if final quality supports it.
+
+Do NOT design around the price.
+
+Design around the standard required to make the price defensible.
+
+The final buyer should reasonably think:
+
+> This saves me many hours of research, information architecture, responsive implementation, professional-service content structure, technical setup, and design work.
+
+The differentiation must come from:
+
+* vertical-specific information architecture;
+* polished visual design;
+* credible demo content;
+* reusable components;
+* practical customization;
+* responsive quality;
+* accessibility;
+* technical SEO;
+* deployment readiness;
+* good documentation;
+* production-ready code.
+
+It must NOT rely on excessive visual effects to create perceived value.
+
+---
+
+# 2. TARGET BUYER
+
+The person buying this product is likely to be:
+
+* an independent web designer;
+* independent web developer;
+* Framer freelancer;
+* Webflow freelancer;
+* WordPress freelancer;
+* React/Next.js freelancer;
+* boutique web design studio;
+* small web development company;
+* founder-led digital agency;
+* approximately 1 to 15 person agency.
+
+They build websites for clients.
+
+The template therefore needs to be convenient for a developer or designer to customize.
+
+---
+
+# 3. END CLIENT
+
+The website represented by the template is for a fictional professional-services business such as:
+
+* Fractional CFO firm;
+* outsourced finance team;
+* accounting consultancy;
+* bookkeeping and controller services firm;
+* financial operations consultancy.
+
+Likely end-client customers include:
+
+* founder-led businesses;
+* professional-services businesses;
+* growing small and midsize businesses;
+* agencies;
+* ecommerce businesses;
+* technology companies;
+* businesses that have outgrown basic bookkeeping but do not need a full-time CFO.
+
+Do not create a consumer-finance, fintech, banking, investing, or crypto website.
+
+This is a B2B professional-services website.
+
+---
+
+# 4. FIRST ACTION: INSPECT BEFORE IMPLEMENTING
+
+Before making implementation decisions, inspect the environment you have been given.
+
+If an existing repository is supplied:
+
+* inspect the complete repository structure;
+* inspect package.json;
+* inspect framework versions;
+* inspect routes;
+* inspect components;
+* inspect styles;
+* inspect configuration;
+* inspect assets;
+* inspect README and documentation;
+* inspect existing scripts;
+* inspect lint/typecheck/test/build scripts;
+* inspect existing functionality;
+* preserve useful working architecture.
+
+If this is an empty/new project:
+
+* establish the architecture described later in this specification;
+* do not create unnecessary complexity.
+
+Do not blindly overwrite working project infrastructure.
+
+Document what exists before changing it.
+
+---
+
+# 5. RESEARCH BEFORE DESIGN
+
+Before settling on the design and information architecture, research the current public website landscape for:
+
+* Fractional CFO firms;
+* outsourced accounting firms;
+* finance advisory firms;
+* controller/CFO service companies;
+* modern accounting consultancies;
+* high-quality professional-services websites.
+
+Study enough examples to understand:
+
+* common services;
+* navigation structures;
+* client objections;
+* trust requirements;
+* calls to action;
+* service presentation;
+* case-study patterns;
+* team presentation;
+* industry specialization;
+* insights/content patterns;
+* consultation flows;
+* visual conventions;
+* weaknesses and clichés in existing websites.
+
+You may learn from public websites.
+
+You must NOT:
+
+* clone a competitor;
+* copy a site's layout wholesale;
+* copy wording;
+* reproduce proprietary graphics;
+* copy photography without appropriate rights;
+* copy testimonials;
+* copy statistics;
+* copy branding.
+
+Use research to understand the market, not to duplicate it.
+
+Create an internal research summary before implementation.
+
+---
+
+# 6. NEVER INVENT REAL-WORLD CLAIMS
+
+This requirement is strict.
+
+Do NOT invent:
+
+* real customers;
+* real customer logos;
+* certifications;
+* accounting licenses;
+* CPA qualifications;
+* awards;
+* regulatory approvals;
+* years in business;
+* office locations;
+* revenue statistics;
+* client counts;
+* AUM;
+* review scores;
+* media mentions;
+* partnerships;
+* software certifications;
+* performance claims;
+* real testimonials.
+
+Because this is a fictional demonstration company, fictional content is permitted ONLY when clearly structured as demonstration material.
+
+Do not portray fictional information as factual information about a real organization.
+
+Where regulated or professional credentials would normally appear, either:
+
+* use neutral placeholder patterns;
+* explicitly identify them as demonstration content;
+* or omit unsupported claims.
+
+---
+
+# 7. CREATE A BELIEVABLE FICTIONAL DEMO BRAND
+
+Create a fictional business specifically for the template.
+
+The working name may be:
+
+# Northline Finance
+
+You may improve the name only if you have a materially stronger, original alternative.
+
+The brand must feel:
+
+* credible;
+* understated;
+* professional;
+* current;
+* financially literate;
+* approachable;
+* B2B;
+* independent rather than corporate-banking-like.
+
+Avoid startup clichés.
+
+Create a coherent fictional brand profile including:
+
+* company name;
+* concise positioning statement;
+* service model;
+* ideal clients;
+* company description;
+* values;
+* process;
+* fictional team;
+* industry focus;
+* demo case-study scenarios;
+* article topics;
+* FAQs.
+
+Do not use cheesy slogans.
+
+Avoid wording such as:
+
+* "unlock your potential";
+* "take your business to the next level";
+* "empower your journey";
+* "transform your future";
+* "your trusted partner";
+* "innovative solutions";
+* "revolutionize";
+* "game-changing";
+* "one-stop solution."
+
+Write like a strong specialist finance consultancy.
+
+---
+
+# 8. CORE POSITIONING
+
+The demo company should broadly communicate something like:
+
+> Finance and accounting support for founder-led businesses that need better visibility, stronger financial operations, and senior finance guidance without building a full internal finance department.
+
+Do not copy that line mechanically.
+
+Use it as strategic direction.
+
+The company's services should make commercial sense.
+
+Potential service families include:
+
+* Fractional CFO;
+* Management Reporting;
+* Forecasting and Planning;
+* Cash Flow Management;
+* Accounting and Bookkeeping;
+* Controller Services;
+* Financial Operations;
+* KPI Reporting;
+* Board / Investor Reporting;
+* Finance Systems and Process Improvement.
+
+Do not force all of these if a cleaner service architecture works better.
+
+---
+
+# 9. REQUIRED INFORMATION ARCHITECTURE
+
+Build a real multi-page site.
+
+At minimum include:
+
+1. Home
+2. Services
+3. Fractional CFO
+4. Accounting / Bookkeeping
+5. Industries
+6. Case Studies
+7. Individual Case Study
+8. About
+9. Team
+10. Insights
+11. Individual Insight / Article
+12. Contact / Consultation
+13. Privacy
+14. Terms
+15. Custom 404
+
+Use clean routes.
+
+Suggested route architecture:
+
+```text
+/
+ /services
+ /services/fractional-cfo
+ /services/accounting-bookkeeping
+ /industries
+ /case-studies
+ /case-studies/[slug]
+ /about
+ /team
+ /insights
+ /insights/[slug]
+ /contact
+ /privacy
+ /terms
+```
+
+If research supports additional important pages, you may add them.
+
+Do not add pages merely to inflate page count.
+
+---
+
+# 10. HOMEPAGE STRATEGY
+
+The homepage must establish:
+
+* who the firm serves;
+* what problem it solves;
+* its primary service areas;
+* why the visitor should trust the model;
+* how engagement works;
+* evidence through clearly fictional/demo case studies;
+* expertise;
+* human/team credibility;
+* useful insights;
+* a clear path to consultation.
+
+Do not make the homepage:
+
+Hero
+→ logo strip
+→ three feature cards
+→ testimonials
+→ CTA
+
+That is generic SaaS structure.
+
+Develop a vertical-specific editorial composition.
+
+Potential homepage content may include:
+
+* restrained hero;
+* concise positioning;
+* client-fit statement;
+* financial problem framing;
+* service architecture;
+* business-stage indicators;
+* engagement model;
+* selected industry expertise;
+* selected case study;
+* numerical/demo business outcome module;
+* advisor/team preview;
+* insight/article preview;
+* consultation CTA.
+
+The homepage must have visual rhythm and hierarchy.
+
+---
+
+# 11. SERVICES PAGE
+
+Create a service architecture that helps a potential client understand:
+
+* what each service is;
+* when they need it;
+* what problems it addresses;
+* what deliverables may be involved;
+* how services work together.
+
+Potential categories:
+
+Strategic Finance
+
+* Fractional CFO
+* Forecasting and planning
+* Decision support
+* board/investor reporting
+
+Financial Operations
+
+* Management reporting
+* cash flow management
+* KPI reporting
+* process improvement
+
+Accounting
+
+* monthly accounting
+* bookkeeping
+* close support
+* controller services
+
+Do not promise regulated activities without appropriate framing.
+
+---
+
+# 12. FRACTIONAL CFO PAGE
+
+This should feel like a real high-value service landing page.
+
+Cover areas such as:
+
+* when a company needs Fractional CFO support;
+* typical challenges;
+* financial visibility;
+* forecasting;
+* cash management;
+* strategic planning;
+* reporting;
+* finance leadership;
+* decision support;
+* engagement process;
+* FAQ;
+* consultation CTA.
+
+Use a strong editorial structure.
+
+Do not create a feature-grid-only page.
+
+---
+
+# 13. ACCOUNTING / BOOKKEEPING PAGE
+
+This page should be distinctly different from the Fractional CFO page.
+
+Potential subjects:
+
+* reliable monthly books;
+* month-end close;
+* financial statements;
+* account reconciliation;
+* reporting;
+* controller oversight;
+* finance operations;
+* clean handoff into strategic finance.
+
+Make the relationship between bookkeeping, accounting, controller support, and CFO services understandable.
+
+---
+
+# 14. INDUSTRIES PAGE
+
+Create several believable demonstration verticals.
+
+Examples may include:
+
+* professional services;
+* technology;
+* ecommerce;
+* agencies;
+* consulting;
+* recurring-revenue businesses.
+
+Do not claim the fictional firm has real sector credentials.
+
+Instead frame these as demo service-fit categories.
+
+Each industry area should communicate vertical-specific financial concerns.
+
+Example:
+
+Agency:
+
+* project margins;
+* utilization;
+* staffing;
+* cash timing;
+* recurring revenue;
+* pipeline-to-capacity planning.
+
+Ecommerce:
+
+* contribution margin;
+* inventory;
+* channel performance;
+* cash conversion;
+* forecasting.
+
+Make these commercially intelligent.
+
+---
+
+# 15. CASE STUDIES
+
+Case studies are important.
+
+Create 3 to 4 fictional demonstration case studies.
+
+They must be explicitly presented as demonstration/sample content within the product source/documentation.
+
+Do NOT use real business names.
+
+Each case study should have:
+
+* fictional company;
+* company type;
+* situation;
+* problem;
+* work performed;
+* process;
+* measurable demo outcome where appropriate;
+* services involved;
+* concise conclusion.
+
+Use plausible values.
+
+Do not use absurd results.
+
+Do not claim causation that would not be supportable.
+
+Consider labels such as:
+
+"Demonstration case study"
+
+inside source/demo documentation.
+
+The rendered template may treat the fictional brand as a cohesive demonstration site, but the product documentation must make clear that case studies are demo content requiring replacement before real client deployment.
+
+---
+
+# 16. TEAM PAGE
+
+Create a small fictional team.
+
+Potential roles:
+
+* Managing Partner / Fractional CFO;
+* Finance Director;
+* Controller;
+* Senior Accountant;
+* Operations / Client Services.
+
+Biographies should sound human and concise.
+
+Do not fabricate real licenses or certifications.
+
+Do not use fake LinkedIn links.
+
+Create an architecture that allows the buyer to easily add, remove, or edit team members.
+
+---
+
+# 17. ABOUT PAGE
+
+Avoid generic corporate history.
+
+The page can focus on:
+
+* point of view;
+* operating model;
+* who the firm works best with;
+* how senior finance + accounting work together;
+* principles;
+* team;
+* approach.
+
+Make it useful to a prospective client deciding whether the firm is credible.
+
+---
+
+# 18. INSIGHTS SYSTEM
+
+Build a real content architecture.
+
+Include:
+
+* insights index;
+* article cards;
+* tags/categories if useful;
+* individual article pages;
+* author;
+* publication date;
+* reading hierarchy;
+* related articles where appropriate.
+
+Create approximately 5 to 8 example article entries.
+
+Examples:
+
+* building a useful 13-week cash flow forecast;
+* when a growing business needs a controller versus CFO;
+* what monthly management reporting should actually tell you;
+* preparing a finance function for growth;
+* measuring service-business project margins.
+
+Write credible excerpts.
+
+At least 2 or 3 articles should contain enough real demo body content to demonstrate article typography.
+
+Do not populate pages with Lorem Ipsum.
+
+---
+
+# 19. CONTACT / CONSULTATION FLOW
+
+Build a professional consultation page.
+
+Potential fields:
+
+* name;
+* work email;
+* company;
+* website;
+* approximate company stage / size;
+* service interest;
+* message.
+
+Do not ask for excessive information.
+
+Include:
+
+* accessible labels;
+* validation;
+* error states;
+* success state;
+* loading state;
+* spam-conscious architecture;
+* clear privacy note.
+
+The shipped template must work safely in demo mode.
+
+Do not hardcode form submissions to any real person's email.
+
+Provide an integration-ready architecture.
+
+If using Resend or another provider:
+
+* keep credentials server-side;
+* provide `.env.example`;
+* provide setup documentation;
+* fail gracefully when configuration is absent.
+
+The template must still install and render without secret credentials.
+
+---
+
+# 20. VISUAL DIRECTION
+
+The concept is:
+
+# Modern Financial Editorial
+
+The site should feel like a combination of:
+
+* a strong independent financial consultancy;
+* a considered editorial publication;
+* a precise professional-services brand.
+
+It must NOT look like:
+
+* a generic SaaS homepage;
+* a fintech dashboard;
+* a crypto company;
+* a venture-backed startup landing page;
+* a template marketplace cliché.
+
+Visual qualities:
+
+* restraint;
+* trust;
+* clarity;
+* precision;
+* strong typography;
+* generous whitespace;
+* refined rules/borders;
+* sophisticated grids;
+* subtle financial-document influences;
+* high-quality editorial composition.
+
+---
+
+# 21. COLOR DIRECTION
+
+Develop a sophisticated palette around concepts such as:
+
+* warm off-white / paper;
+* charcoal / near-black;
+* deep muted navy;
+* restrained financial green;
+* quiet neutral grays.
+
+Use accent colors sparingly.
+
+Do not use:
+
+* neon;
+* gratuitous gradients;
+* rainbow gradients;
+* random purple-blue startup gradients;
+* glowing cards;
+* excessive glassmorphism.
+
+Create proper design tokens.
+
+The entire color system should be configurable centrally.
+
+---
+
+# 22. TYPOGRAPHY
+
+Typography is a major part of the product.
+
+Use high-quality fonts with appropriate commercial/open-source usage rights.
+
+A possible direction:
+
+* refined serif or editorial display face;
+* highly legible sans-serif body face.
+
+Do not sacrifice readability for fashion.
+
+Create a deliberate hierarchy for:
+
+* display headings;
+* H1;
+* H2;
+* H3;
+* eyebrow text;
+* body;
+* captions;
+* labels;
+* data/numerical typography;
+* navigation;
+* buttons.
+
+Support responsive typography with sensible `clamp()` or equivalent fluid scaling.
+
+Avoid oversized headings that break on mobile.
+
+---
+
+# 23. VISUAL MOTIFS
+
+Develop subtle vertical-specific motifs.
+
+Possible influences:
+
+* accounting ledgers;
+* financial statements;
+* structured data;
+* margins;
+* ruled documents;
+* report sections;
+* balance-sheet precision;
+* restrained tabular typography.
+
+Do NOT literally plaster fake spreadsheets everywhere.
+
+Use the concepts abstractly and tastefully.
+
+---
+
+# 24. IMAGERY
+
+Prefer:
+
+* real properly licensed royalty-free photography;
+* neutral professional imagery;
+* architectural/business detail;
+* people in credible workplace environments;
+* original graphical treatments.
+
+Do not use AI-generated images unless explicitly authorized.
+
+Do not use images with unclear redistribution rights inside the commercial downloadable product.
+
+For every included third-party asset, document:
+
+* filename;
+* source;
+* creator if available;
+* license;
+* whether redistribution is permitted;
+* where it appears;
+* alt text;
+* suggested replacement dimensions/crop.
+
+Create:
+
+```text
+docs/ASSET_MANIFEST.md
+```
+
+If redistribution rights are unclear, do NOT ship the asset.
+
+Use a safe placeholder and document how the buyer should replace it.
+
+---
+
+# 25. NO FAKE CUSTOMER LOGO WALL
+
+Do not fabricate logos of nonexistent clients to imitate social proof.
+
+Do not create:
+
+"Trusted by 500 companies"
+
+or similar unsupported language.
+
+Trust should come from:
+
+* design;
+* expertise;
+* service clarity;
+* people;
+* process;
+* useful content;
+* demonstration case studies.
+
+---
+
+# 26. INTERACTION DESIGN
+
+Motion must be restrained and purposeful.
+
+Appropriate effects include:
+
+* subtle section reveals;
+* refined navigation transitions;
+* line/rule reveals;
+* small hover states;
+* image masking;
+* subtle numerical transitions;
+* article/card interactions.
+
+Do not:
+
+* animate every element;
+* use excessive parallax;
+* add cursor gimmicks;
+* add giant scrolling marquees without reason;
+* block navigation with page transitions;
+* use animation that harms accessibility;
+* make users wait for content.
+
+Support:
+
+```css
+prefers-reduced-motion
+```
+
+All important functionality must remain usable with reduced motion.
+
+---
+
+# 27. RESPONSIVE DESIGN
+
+Do not merely "make it responsive."
+
+Actively design and test around approximately:
+
+* 1440 px and above;
+* 1280 px;
+* 1024 px;
+* 768 px;
+* 430 px;
+* 390 px;
+* 360 px.
+
+Inspect every major page.
+
+Test:
+
+* navigation;
+* mobile menu;
+* H1 wrapping;
+* long team names;
+* service names;
+* content cards;
+* forms;
+* article typography;
+* case study layouts;
+* images;
+* data displays;
+* buttons;
+* tables if any;
+* footer;
+* horizontal overflow.
+
+No meaningful information should rely solely on hover.
+
+---
+
+# 28. ACCESSIBILITY
+
+Target strong WCAG-conscious implementation.
+
+At minimum verify:
+
+* semantic landmarks;
+* heading hierarchy;
+* keyboard navigation;
+* visible focus states;
+* accessible mobile navigation;
+* labels for inputs;
+* error messaging;
+* button semantics;
+* links distinguishable from buttons;
+* adequate color contrast;
+* alt text;
+* decorative image handling;
+* reduced-motion support;
+* reasonable touch targets;
+* no keyboard traps.
+
+Use ARIA only where required.
+
+Prefer native HTML semantics.
+
+---
+
+# 29. TECHNICAL STACK
+
+Unless an existing supplied project gives a reason to preserve a different compatible stack, use:
+
+* Next.js App Router;
+* React;
+* TypeScript;
+* Tailwind CSS;
+* minimal, justified dependencies.
+
+Use the current stable project-supported versions.
+
+Do not add libraries merely because they are fashionable.
+
+For animation, use a lightweight existing solution if already present, or a justified library such as Motion/Framer Motion if needed.
+
+Do not introduce:
+
+* unnecessary state-management libraries;
+* unnecessary database;
+* unnecessary CMS;
+* unnecessary authentication;
+* unnecessary backend infrastructure.
+
+The base template should be self-contained.
+
+---
+
+# 30. NO REQUIRED CMS FOR V1
+
+The product must work without:
+
+* Sanity;
+* Contentful;
+* Strapi;
+* Supabase;
+* Firebase;
+* database setup.
+
+Use a developer-friendly local content architecture.
+
+Good possibilities include:
+
+* typed TypeScript content files;
+* MDX;
+* structured JSON/TS collections.
+
+Choose the cleanest architecture.
+
+The buyer should be able to run:
+
+```powershell
+npm install
+npm run dev
+```
+
+and see the full demo.
+
+---
+
+# 31. PROJECT ARCHITECTURE
+
+Aim for a clear structure along the lines of:
+
+```text
+src/
+├── app/
+│   ├── page.tsx
+│   ├── services/
+│   ├── industries/
+│   ├── case-studies/
+│   ├── about/
+│   ├── team/
+│   ├── insights/
+│   ├── contact/
+│   ├── privacy/
+│   ├── terms/
+│   ├── sitemap.ts
+│   ├── robots.ts
+│   ├── layout.tsx
+│   └── not-found.tsx
+│
+├── components/
+│   ├── layout/
+│   ├── ui/
+│   ├── sections/
+│   └── finance/
+│
+├── content/
+│   ├── services/
+│   ├── industries/
+│   ├── case-studies/
+│   ├── team/
+│   ├── insights/
+│   └── faq/
+│
+├── config/
+│   └── site.ts
+│
+├── lib/
+│
+└── styles/
+```
+
+Adapt if a better maintainable architecture is justified.
+
+Do not over-engineer it.
+
+---
+
+# 32. CENTRALIZE BUYER CUSTOMIZATION
+
+This is one of the highest-priority product requirements.
+
+Do NOT scatter:
+
+* business name;
+* email;
+* phone;
+* address;
+* colors;
+* social links;
+* service data;
+* team data;
+* case studies;
+
+across dozens of components.
+
+Create a clear configuration system.
+
+For example:
+
+```ts
+export const siteConfig = {
+  companyName: "Northline Finance",
+  shortName: "Northline",
+  description: "...",
+  contact: {
+    email: "...",
+    phone: "...",
+  },
+  social: {
+    linkedin: "",
+  },
+};
+```
+
+Centralize theme tokens.
+
+Centralize repeated content.
+
+A competent developer should be able to customize the template quickly without reverse-engineering it.
+
+---
+
+# 33. BUILD VERTICAL-SPECIFIC COMPONENTS
+
+Do not rely exclusively on generic components such as:
+
+* Hero;
+* FeatureCards;
+* Testimonials;
+* CTA.
+
+Create components that belong naturally to this business type.
+
+Examples:
+
+```text
+<ServiceMatrix />
+<FinanceFunctionMap />
+<BusinessStageFit />
+<EngagementProcess />
+<CaseStudyMetrics />
+<AdvisorProfiles />
+<ServiceComparison />
+<IndustryFinanceChallenges />
+<ReportingPreview />
+<InsightGrid />
+<ConsultationForm />
+```
+
+Only create components that improve the actual experience.
+
+---
+
+# 34. DESIGN SYSTEM
+
+Create a documented internal design system containing:
+
+* colors;
+* typography;
+* spacing;
+* container widths;
+* radii;
+* borders;
+* shadows;
+* button variants;
+* input states;
+* links;
+* cards;
+* section spacing;
+* data styles;
+* motion durations;
+* easing.
+
+Do not produce dozens of inconsistent one-off values.
+
+The design system should enable later customization.
+
+---
+
+# 35. SEO
+
+Implement technically sound SEO infrastructure.
+
+Include:
+
+* meaningful unique page titles;
+* meaningful meta descriptions;
+* metadata configuration;
+* canonical handling;
+* Open Graph;
+* Twitter/social metadata;
+* sitemap;
+* robots;
+* semantic headings;
+* internal linking;
+* breadcrumbs where useful;
+* structured data.
+
+Use appropriate structured data only when supported.
+
+Possible schema types may include:
+
+* Organization;
+* ProfessionalService;
+* Person;
+* BreadcrumbList;
+* Article.
+
+Do not insert unsupported review/rating schema.
+
+Do not fabricate business data for structured markup.
+
+Demo business information should be easy to replace.
+
+---
+
+# 36. PERFORMANCE
+
+Prioritize practical performance.
+
+Requirements:
+
+* use optimized Next.js image handling where appropriate;
+* avoid oversized source images;
+* avoid unnecessary JavaScript;
+* lazy-load where sensible;
+* prevent CLS;
+* use fonts properly;
+* avoid excessive client components;
+* avoid animation-heavy runtime;
+* minimize dependency footprint.
+
+Prefer Server Components where appropriate.
+
+Use `"use client"` only where interaction requires it.
+
+---
+
+# 37. HYDRATION SAFETY
+
+The site must have no hydration warnings.
+
+Avoid nondeterministic server/client markup caused by:
+
+* random numbers;
+* current time differences;
+* window-dependent render logic;
+* locale differences;
+* conditional DOM mismatches.
+
+Check the browser console.
+
+No hydration errors are acceptable.
+
+---
+
+# 38. CONTENT QUALITY
+
+No Lorem Ipsum.
+
+No unfinished placeholder sentences.
+
+No generic AI-sounding filler.
+
+Copy should be:
+
+* concise;
+* calm;
+* financially literate;
+* professional;
+* scannable;
+* credible.
+
+Avoid excessive:
+
+* em dashes;
+* jargon;
+* exclamation marks;
+* unnecessary adjectives;
+* exaggerated claims.
+
+Section headlines should communicate substance.
+
+---
+
+# 39. LEGAL PAGES
+
+Privacy and Terms pages are template/demo content.
+
+Clearly structure them so the buyer knows they require legal review and customization before real-world deployment.
+
+Do not imply they constitute legal advice.
+
+---
+
+# 40. 404 PAGE
+
+Create a branded custom 404.
+
+It should:
+
+* match the site;
+* provide useful navigation;
+* have a route back home;
+* avoid silly gimmicks inconsistent with financial services.
+
+---
+
+# 41. COMPONENT QUALITY
+
+Components should be:
+
+* readable;
+* typed;
+* maintainable;
+* reusable where meaningful;
+* reasonably small;
+* accessible.
+
+Avoid premature abstraction.
+
+Avoid giant 800-line page components.
+
+Avoid abstraction where a simple component is clearer.
+
+---
+
+# 42. NO BROKEN OR MOCK FUNCTIONALITY
+
+Do not create UI that appears functional but is not.
+
+Examples:
+
+* fake filters;
+* fake search;
+* fake login;
+* fake newsletter form;
+* buttons leading nowhere;
+* social icons with "#" links;
+* fake scheduling widget;
+* meaningless dropdowns.
+
+If functionality is included, make it work.
+
+If the buyer must configure something externally, document it and provide a safe state.
+
+---
+
+# 43. TEMPLATE DOCUMENTATION
+
+Create a comprehensive documentation directory.
+
+At minimum:
+
+```text
+docs/
+├── START_HERE.md
+├── CUSTOMIZATION_GUIDE.md
+├── CONTENT_GUIDE.md
+├── DEPLOYMENT_GUIDE.md
+├── FORM_SETUP.md
+├── ASSET_MANIFEST.md
+├── SEO_GUIDE.md
+└── DEMO_CONTENT_NOTICE.md
+```
+
+---
+
+# 44. START HERE DOCUMENTATION
+
+Explain:
+
+* what this product is;
+* technology used;
+* requirements;
+* how to install;
+* how to run;
+* where key files live;
+* how the project is structured;
+* recommended customization order.
+
+A buyer should understand the project quickly.
+
+---
+
+# 45. CUSTOMIZATION GUIDE
+
+Provide explicit instructions for:
+
+* company name;
+* logo;
+* favicon;
+* colors;
+* fonts;
+* contact details;
+* navigation;
+* services;
+* industries;
+* team;
+* case studies;
+* insights;
+* images;
+* CTAs;
+* legal copy;
+* metadata;
+* social preview images.
+
+Reference exact file paths.
+
+---
+
+# 46. CONTENT GUIDE
+
+Explain:
+
+* which content is fictional;
+* what must be replaced;
+* what may remain as structural inspiration;
+* how to add/edit services;
+* how to add/edit industries;
+* how to add case studies;
+* how to add team members;
+* how to add articles.
+
+---
+
+# 47. DEPLOYMENT GUIDE
+
+Provide deployment guidance for a typical Next.js deployment.
+
+Vercel may be the primary documented path.
+
+Explain:
+
+* project setup;
+* environment variables;
+* build command;
+* deployment;
+* custom domain;
+* production verification.
+
+Do not include secret credentials.
+
+---
+
+# 48. DEMO CONTENT NOTICE
+
+This is mandatory.
+
+Identify:
+
+* fictional company;
+* fictional team;
+* fictional case studies;
+* fictional numerical outcomes;
+* placeholder contact information;
+* any other demo-only material.
+
+Tell buyers to replace such content before deploying a real client site.
+
+---
+
+# 49. README
+
+The repository root README should be concise but useful.
+
+Include:
+
+* project description;
+* quick start;
+* key scripts;
+* structure;
+* documentation links;
+* customization entry points.
+
+Do not make it read like a marketplace sales page.
+
+---
+
+# 50. ENVIRONMENT VARIABLES
+
+Ship:
+
+```text
+.env.example
+```
+
+Never ship:
+
+```text
+.env
+.env.local
+```
+
+with real secrets.
+
+Document every environment variable.
+
+Site must build without optional form credentials where possible.
+
+---
+
+# 51. PACKAGE SCRIPTS
+
+Provide useful scripts.
+
+At minimum where supported:
+
+```text
+dev
+build
+start
+lint
+typecheck
+```
+
+If testing infrastructure is introduced, add appropriate test commands.
+
+Do not pretend a test script exists if it does not.
+
+---
+
+# 52. PHASED IMPLEMENTATION
+
+Do NOT try to create everything chaotically in one pass.
+
+Execute in phases.
+
+---
+
+# PHASE 1 — RESEARCH AND ARCHITECTURE
+
+Do:
+
+* inspect environment;
+* research vertical;
+* define fictional brand;
+* define information architecture;
+* define content system;
+* define visual direction;
+* define asset strategy;
+* define design tokens;
+* define technical architecture.
+
+Create internal planning documentation.
+
+Then verify that the proposed architecture satisfies the commercial objective.
+
+Do not begin broad page implementation before this foundation is coherent.
+
+---
+
+# PHASE 2 — FOUNDATION
+
+Implement:
+
+* Next.js foundation;
+* global styles;
+* typography;
+* theme tokens;
+* site configuration;
+* content architecture;
+* navigation;
+* mobile navigation;
+* footer;
+* layout primitives;
+* basic reusable UI;
+* metadata foundation.
+
+Verify:
+
+* dev server;
+* routing;
+* type checking;
+* linting;
+* no obvious console errors;
+* responsive shell.
+
+Fix foundation issues before continuing.
+
+---
+
+# PHASE 3 — HOMEPAGE
+
+Build the homepage to near-final visual quality.
+
+This phase establishes the product's visual language.
+
+The homepage must be strong enough that we could decide whether the creative direction works before multiplying it across the entire site.
+
+Verify:
+
+* desktop;
+* tablet;
+* mobile;
+* typography;
+* section rhythm;
+* imagery;
+* navigation;
+* motion;
+* CTAs;
+* accessibility;
+* console.
+
+If the homepage looks generic, STOP and improve it before proceeding.
+
+Do not propagate weak design across twelve pages.
+
+---
+
+# PHASE 4 — PRIMARY COMMERCIAL PAGES
+
+Build:
+
+* Services;
+* Fractional CFO;
+* Accounting / Bookkeeping;
+* Industries;
+* Case Studies;
+* Case Study detail.
+
+Give each page its own composition.
+
+Do not simply repeat the same hero + cards + CTA template.
+
+Verify all routes and responsive states.
+
+---
+
+# PHASE 5 — CREDIBILITY AND CONTENT
+
+Build:
+
+* About;
+* Team;
+* Insights;
+* Article detail.
+
+Verify:
+
+* readable long-form typography;
+* content architecture;
+* team customization;
+* article routing;
+* related content where implemented.
+
+---
+
+# PHASE 6 — CONVERSION AND SYSTEM PAGES
+
+Build:
+
+* Contact / consultation;
+* safe form behavior;
+* privacy;
+* terms;
+* custom 404.
+
+Verify all form states.
+
+No fake success responses.
+
+If submission is disabled because no provider is configured, communicate that appropriately in development/demo mode.
+
+---
+
+# PHASE 7 — POLISH
+
+Perform a deliberate polish pass.
+
+Review:
+
+* typography;
+* spacing;
+* alignment;
+* borders;
+* images;
+* transitions;
+* hover;
+* focus;
+* loading behavior;
+* responsive edge cases;
+* section rhythm;
+* repeated patterns.
+
+Remove anything visually unnecessary.
+
+---
+
+# PHASE 8 — PRODUCTIZATION
+
+Ensure:
+
+* centralized content;
+* centralized brand data;
+* clean config;
+* clear structure;
+* `.env.example`;
+* asset documentation;
+* customization documentation;
+* demo-data notice;
+* deployment guide;
+* no internal development debris.
+
+Make this a product, not merely a working site.
+
+---
+
+# PHASE 9 — TECHNICAL SEO AND ACCESSIBILITY
+
+Audit and improve:
+
+* metadata;
+* canonical behavior;
+* social previews;
+* sitemap;
+* robots;
+* structured data;
+* headings;
+* links;
+* landmarks;
+* forms;
+* labels;
+* keyboard access;
+* focus;
+* contrast;
+* reduced motion;
+* alt text.
+
+---
+
+# PHASE 10 — FULL QA
+
+Run every relevant project check.
+
+At minimum:
+
+```powershell
+npm run lint
+npm run typecheck
+npm run build
+```
+
+If scripts differ, inspect `package.json` and use the actual equivalent.
+
+Do not report commands that were not run.
+
+Also verify the site in a browser.
+
+Inspect:
+
+* every route;
+* desktop;
+* tablet;
+* mobile;
+* console;
+* hydration;
+* broken links;
+* images;
+* form behavior;
+* page overflow;
+* 404;
+* metadata;
+* navigation;
+* mobile navigation;
+* keyboard interaction;
+* reduced-motion mode.
+
+---
+
+# 53. BROWSER QA MATRIX
+
+Check at minimum:
+
+## Home
+
+* hero
+* all CTAs
+* services
+* case study
+* navigation
+* footer
+
+## Services
+
+* navigation
+* section hierarchy
+* internal links
+
+## Service details
+
+* service-specific sections
+* CTA links
+* FAQ interaction if used
+
+## Industries
+
+* industry content
+* responsive grids
+
+## Case Studies
+
+* index
+* detail route
+* next/related navigation where implemented
+
+## Team
+
+* cards/profiles
+* long-name handling
+
+## Insights
+
+* index
+* article detail
+* long-form typography
+
+## Contact
+
+* validation
+* error state
+* success/configuration behavior
+* keyboard navigation
+
+## Global
+
+* header
+* mobile menu
+* footer
+* 404
+* focus
+* console
+* no horizontal overflow
+
+---
+
+# 54. RESPONSIVE QA
+
+Explicitly inspect:
+
+```text
+1440px
+1280px
+1024px
+768px
+430px
+390px
+360px
+```
+
+Check unusual intermediate widths too.
+
+Do not assume Tailwind breakpoints guarantee quality.
+
+---
+
+# 55. QUALITY GATES
+
+The product is NOT complete if any of these remain:
+
+* broken build;
+* TypeScript errors;
+* lint errors that indicate real defects;
+* hydration warnings;
+* broken links;
+* missing images;
+* horizontal scrolling;
+* unreadable mobile typography;
+* inaccessible menu;
+* placeholder Lorem Ipsum;
+* fake links;
+* unconfigured functionality pretending to work;
+* secret credentials;
+* unsupported claims;
+* fake client logos;
+* unclear asset licensing;
+* scattered customization data;
+* empty pages;
+* TODO comments indicating unfinished work;
+* console runtime errors;
+* obvious generic SaaS styling.
+
+---
+
+# 56. ART DIRECTION REJECTION TEST
+
+Before considering release, look at the website objectively.
+
+Ask:
+
+> If I changed the company name from Northline Finance to a cybersecurity company and changed two colors, would the site still make equal sense?
+
+If YES, the design is too generic.
+
+Improve its accounting / Fractional CFO specificity.
+
+Ask:
+
+> Does this look like a generic AI-generated SaaS landing page?
+
+If YES, redesign the weak sections.
+
+Ask:
+
+> Could a competent freelance designer actually save meaningful client-delivery time by buying this?
+
+If NO, improve productization.
+
+---
+
+# 57. CUSTOMIZATION TEST
+
+Pretend you are the buyer.
+
+Attempt to identify how to change:
+
+* business name;
+* logo;
+* colors;
+* fonts;
+* email;
+* phone;
+* services;
+* team;
+* industries;
+* case studies;
+* articles;
+* images;
+* form configuration;
+* SEO metadata.
+
+If any common change requires hunting through unrelated components, improve the architecture.
+
+---
+
+# 58. CLEAN-ROOM TEST
+
+Imagine a buyer downloads this project on a different computer.
+
+The project should be understandable and installable from the supplied files.
+
+Verify:
+
+* package lock exists;
+* dependencies are declared;
+* no dependency on your local machine;
+* no absolute local paths;
+* no hidden credentials;
+* no required untracked files;
+* documented environment variables;
+* README works;
+* build works from source.
+
+---
+
+# 59. PACKAGE PREPARATION
+
+Prepare a commercial release directory similar to:
+
+```text
+Accounting_Fractional_CFO_Template/
+│
+├── TEMPLATE_SOURCE/
+│
+├── DOCUMENTATION/
+│   ├── START_HERE.md
+│   ├── CUSTOMIZATION_GUIDE.md
+│   ├── CONTENT_GUIDE.md
+│   ├── DEPLOYMENT_GUIDE.md
+│   ├── FORM_SETUP.md
+│   ├── SEO_GUIDE.md
+│   └── DEMO_CONTENT_NOTICE.md
+│
+├── ASSET_INFORMATION/
+│   ├── ASSET_MANIFEST.md
+│   └── THIRD_PARTY_NOTICES.md
+│
+├── LICENSE/
+│   └── LICENSE_PLACEHOLDER.md
+│
+└── README.md
+```
+
+Do not invent final commercial license terms unless separately provided.
+
+Use a clearly marked placeholder where commercial licensing language is not supplied.
+
+---
+
+# 60. EXCLUDE FROM CUSTOMER PACKAGE
+
+Do not ship unnecessary/generated development files such as:
+
+```text
+node_modules/
+.next/
+.env
+.env.local
+coverage/
+temporary screenshots
+debug logs
+scratch files
+```
+
+Do ship:
+
+```text
+.env.example
+package.json
+lockfile
+source
+public assets approved for redistribution
+documentation
+```
+
+---
+
+# 61. THIRD-PARTY DEPENDENCY AUDIT
+
+Review dependencies before release.
+
+For every unusual dependency ask:
+
+* is this required?
+* is it maintained?
+* can native framework functionality replace it?
+* does it complicate the buyer's project?
+* does its license permit this use?
+
+Remove unnecessary packages.
+
+---
+
+# 62. ASSET RIGHTS AUDIT
+
+Before packaging:
+
+* verify each redistributable image;
+* verify font rights;
+* verify icons;
+* verify illustrations;
+* verify libraries.
+
+If rights are unclear, remove the asset from the commercial package.
+
+Do not assume free-to-view means free-to-redistribute.
+
+---
+
+# 63. DO NOT BUILD THESE THINGS
+
+Do NOT add without a real reason:
+
+* dashboard;
+* account/login;
+* admin panel;
+* ecommerce;
+* pricing calculator;
+* chat widget;
+* AI chatbot;
+* fake live chat;
+* cookie banner requiring unsupported infrastructure;
+* complex database;
+* CMS;
+* booking platform clone;
+* giant animation framework;
+* WebGL;
+* Three.js;
+* fake analytics dashboard.
+
+This is a professional-services website template.
+
+Focus.
+
+---
+
+# 64. DO NOT FALL INTO COMMON AI DESIGN PATTERNS
+
+Avoid:
+
+* endless rounded cards;
+* giant gradient text;
+* blue-purple glowing backgrounds;
+* blobs;
+* random pills;
+* excessive icon grids;
+* centered text in every section;
+* every section occupying 100vh;
+* meaningless statistics;
+* decorative charts with fake values;
+* identical three-column layouts everywhere;
+* giant headings with no information;
+* excessive "trusted by" sections;
+* floating dashboard windows;
+* fake browser chrome everywhere.
+
+Use composition, typography, hierarchy, whitespace, imagery, and business-specific structure instead.
+
+---
+
+# 65. VISUAL DETAIL STANDARD
+
+Pay attention to:
+
+* optical alignment;
+* line length;
+* spacing relationships;
+* button height;
+* baseline alignment;
+* border consistency;
+* image crops;
+* heading wraps;
+* paragraph width;
+* empty states;
+* form error states;
+* mobile nav transition;
+* footer density;
+* small-screen rhythm.
+
+The site should feel designed, not assembled.
+
+---
+
+# 66. FUTURE TEMPLATE FACTORY CONSIDERATION
+
+This is Template #1 in a larger collection that may later include:
+
+* cybersecurity consultancy;
+* executive recruitment;
+* architecture/interior studio;
+* commercial real estate;
+* boutique law;
+* AI automation agency;
+* Shopify/ecommerce agency;
+* dental/cosmetic clinic;
+* consulting firm.
+
+Therefore, structure reusable technical primitives well.
+
+However:
+
+# DO NOT make this template visually generic to accommodate future templates.
+
+We want to reuse engineering infrastructure later.
+
+We do NOT want to reuse the same art direction.
+
+Future templates must be visually and commercially distinct.
+
+---
+
+# 67. WORKING ENVIRONMENT
+
+If commands are being run on Windows PowerShell 5.1:
+
+Use PowerShell-compatible commands only.
+
+Do NOT assume Bash.
+
+Avoid commands such as:
+
+```text
+rm -rf
+cp -r
+mv
+grep
+sed
+awk
+cat
+```
+
+Use valid PowerShell equivalents such as:
+
+```powershell
+Get-ChildItem
+Get-Content
+Select-String
+Copy-Item
+Move-Item
+Remove-Item
+New-Item
+```
+
+Use sequential command checks when required.
+
+Do not hide failed command output.
+
+---
+
+# 68. SOURCE CONTROL
+
+Do not commit, push, create a GitHub repository, change remote branches, or deploy unless explicitly authorized in the environment/user instruction.
+
+Prepare the complete implementation locally by default.
+
+If explicit authorization is subsequently provided, use the supplied:
+
+* repository;
+* branch;
+* Git author;
+* Git email;
+* deployment project.
+
+Never invent credentials or account details.
+
+---
+
+# 69. DO NOT STOP AT "BUILD PASSED"
+
+A successful production build is only one release condition.
+
+The product must pass:
+
+* functional QA;
+* visual QA;
+* responsive QA;
+* content QA;
+* accessibility QA;
+* asset-rights QA;
+* template customization QA;
+* documentation QA;
+* commercial-product QA.
+
+A technically valid but visually mediocre template is not finished.
+
+---
+
+# 70. FINAL INDEPENDENT SELF-CRITIQUE
+
+Before declaring completion, critique your own result as if you did NOT build it.
+
+Evaluate:
+
+* visual originality;
+* accounting vertical specificity;
+* information architecture;
+* credibility;
+* mobile quality;
+* code quality;
+* buyer customization;
+* documentation;
+* accessibility;
+* performance;
+* SEO;
+* production readiness.
+
+Score each from 1 to 10.
+
+Do not automatically assign high scores.
+
+For anything below 8:
+
+* identify the weakness;
+* fix it where realistically possible;
+* rerun relevant checks.
+
+---
+
+# 71. COMMERCIAL VALUE TEST
+
+Ask:
+
+> Would a competent freelancer pay approximately $69 for this instead of starting from a blank project?
+
+Then:
+
+> Would they still feel satisfied after opening the source code and documentation?
+
+Then:
+
+> Could a strong freelancer realistically adapt it to a paying client without rebuilding half the site?
+
+If any answer is no, identify why and improve the product.
+
+Do not simply claim the price is justified.
+
+---
+
+# 72. FINAL RELEASE REPORT
+
+When all implementation and testing work is complete, give me a precise final report containing:
+
+## A. Product
+
+* fictional brand used;
+* total pages/routes;
+* major features;
+* major vertical-specific components.
+
+## B. Architecture
+
+* framework;
+* styling system;
+* content system;
+* configuration system;
+* dependencies.
+
+## C. Files changed
+
+List the important files created or modified.
+
+## D. Documentation
+
+List all documentation produced.
+
+## E. QA commands actually run
+
+For every command provide:
+
+* exact command;
+* result;
+* important warnings/errors.
+
+Never claim a check was run if it was not.
+
+## F. Browser checks
+
+Report:
+
+* desktop;
+* tablet;
+* mobile;
+* console;
+* navigation;
+* forms;
+* responsive behavior;
+* keyboard behavior;
+* reduced motion.
+
+## G. SEO
+
+Report:
+
+* metadata;
+* sitemap;
+* robots;
+* canonical setup;
+* structured data;
+* social metadata.
+
+## H. Accessibility
+
+Report relevant checks and remaining limitations.
+
+## I. Asset licensing
+
+List:
+
+* included asset sources;
+* redistribution status;
+* anything replaced because licensing was unclear.
+
+## J. Productization
+
+Confirm:
+
+* customization system;
+* demo content labeling;
+* `.env.example`;
+* documentation;
+* clean source;
+* package readiness.
+
+## K. Remaining limitations
+
+Be explicit.
+
+Do not hide limitations.
+
+## L. Final verdict
+
+Use exactly one of:
+
+* NOT READY
+* READY FOR INDEPENDENT QA
+
+Do NOT label the product "ready to sell."
+
+An independent reviewer will make that decision after inspecting the finished output.
+
+---
+
+# 73. SUCCESS CRITERIA
+
+The job is complete only when all of these are true:
+
+* coherent vertical research has informed the product;
+* the accounting / Fractional CFO niche is visibly reflected in the design;
+* the website is multi-page;
+* the demo content is complete;
+* no Lorem Ipsum remains;
+* no unsupported real-world claims remain;
+* no fake logos/testimonials remain;
+* design is not generic SaaS;
+* navigation works;
+* mobile navigation works;
+* all routes work;
+* case-study detail pages work;
+* insight detail pages work;
+* form behavior is safe and documented;
+* customization data is centralized;
+* content is easy to edit;
+* design tokens are centralized;
+* responsive layouts have been actively checked;
+* accessibility has been checked;
+* reduced motion works;
+* metadata is implemented;
+* sitemap and robots exist;
+* appropriate structured data exists;
+* production build succeeds;
+* no hydration/runtime errors remain;
+* asset rights are documented;
+* documentation is complete;
+* source is clean;
+* commercial package structure is prepared;
+* template can be handed to an independent auditor.
+
+---
+
+# FINAL DIRECTIVE
+
+Do not optimize for speed at the expense of quality.
+
+Do not create a generic accounting-themed landing page and call the task finished.
+
+Think of this as building a **small commercial product**.
+
+Research first.
+
+Design deliberately.
+
+Implement systematically.
+
+Verify every phase.
+
+Keep the accounting / Fractional CFO business model central to the information architecture and visual system.
+
+Make customization easier than rebuilding.
+
+Use real functionality rather than fake UI.
+
+Use source-backed material rather than invented claims.
+
+Keep the implementation maintainable.
+
+Do not conceal failures.
+
+Do not declare success merely because the application compiles.
+
+The final handoff should be a polished, vertical-specific, production-ready template that is ready for a separate independent QA and commercial-value audit.
